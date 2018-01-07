@@ -1,0 +1,203 @@
+
+To Install Hadoop Follow the Documents
+
+=============================================================================================
+Install Sublime Text
+----------------------
+
+rpm -v --import https://download.sublimetext.com/sublimehq-rpm-pub.gpg
+
+dnf config-manager --add-repo https://download.sublimetext.com/rpm/stable/x86_64/sublime-text.repo
+
+dnf install sublime-text
+======================================================================================================
+Install SBT 
+
+curl https://bintray.com/sbt/rpm/rpm | sudo tee /etc/yum.repos.d/bintray-sbt-rpm.repo
+sudo yum install sbt
+
+
+=============================================================================================
+BASHRC FILES
+=============================================================================================
+
+export SCALA_HOME=/home/esak/Bdata/scala-2.11.8
+export PATH=$SCALA_HOME/bin:$PATH
+
+export JAVA_HOME=/home/esak/java/jdk1.8.0_151
+export HADOOP_PREFIX=/home/esak/Bdata/hadoop-2.7.3
+export HADOOP_HOME=${HADOOP_PREFIX}
+export HADOOP_CONF_DIR=${HADOOP_PREFIX}/etc/hadoop
+export HIVE_HOME=/home/esak/Bdata/hive
+export SQOOP_HOME=/home/esak/Bdata/sqoop
+export SQOOP_CONF_DIR=${SQOOP_HOME/conf}
+export SQOOP_CLASSPATH=${SQOOP_CONF_DIR}
+export HBASE_HOME=/home/esak/Bdata/hbase
+
+export SPARK_HOME=/home/esak/Bdata/spark-2.2.1
+
+
+export OOZIE_HOME=/home/esak/Bdata/oozie
+export OOZIE_URL=http://localhost:11000/oozie
+
+export PATH=$JAVA_HOME/bin:$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$PATH:$HIVE_HOME/bin:$PATH:$SQOOP_HOME/bin:$HBASE_HOME/bin:$OOZIE_HOME/bin:$PATH
+
+export PATH=$SPARK_HOME/bin:$PATH
+
+=============================================================================================
+=============================================================================================
+
+port 22 Connection Refused
+
+we ave to Install OpenSSH Server 
+
+dnf install -y openssh-server;
+systemctl start sshd.service;
+
+
+=============================================================================================
+=============================================================================================
+Hive
+cd $HIVE_HOME/conf
+Edit the ive-env.sh File
+cp hive-env.sh.template hive-env.sh
+export HADOOP_HOME=/home/esak/Bdata/hadoop-2.7.3
+3) After you complete the above steps execute below commands to create directories and give permissions
+
+hadoop fs -mkdir -p /user/hive/warehouse/
+hadoop fs -chmod g+w /user/hive/warehouse
+hadoop fs -chmod g+w /tmp
+
+mv hive-env.sh.template hive-env.sh
+mv hive-default.xml.template hive-site.xml
+
+Login to mysql 
+mysql -u root -p (Austin@316)
+
+mysql> CREATE USER 'hiveuser'@'%' IDENTIFIED BY 'Austin@316'; 
+mysql> GRANT all on *.* to 'hiveuser'@localhost identified by 'Austin@316';
+mysql>  flush privileges;
+------------------------------------------------------------------------------------------
+Changes Made to Hive_Site.xml 
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+
+<property>
+  <name>javax.jdo.option.ConnectionURL</name>
+  <value>jdbc:mysql://localhost/metastore?createDatabaseIfNotExist=true</value>
+</property>
+
+
+<property>
+  <name>javax.jdo.option.ConnectionDriverName</name>
+  <value>com.mysql.jdbc.Driver</value>
+</property>
+
+<property>
+  <name>javax.jdo.option.ConnectionUserName</name>
+  <value>hiveuser</value>
+</property>
+
+<property>
+  <name>javax.jdo.option.ConnectionPassword</name>
+  <value>Austin@316</value>
+</property>
+
+<property>
+  <name>datanucleus.autoCreateSchema</name>
+  <value>true</value>
+</property>
+
+<property>
+  <name>datanucleus.fixedDatastore</name>
+  <value>true</value>
+</property>
+
+<property>
+ <name>datanucleus.autoCreateTables</name>
+ <value>True</value>
+ </property>
+
+</configuration>
+
+-------------------------------------------------------------
+From Hive 2.2.0 these Step is Mandatory we have to Tell Which Schema We have to Use 
+
+schematool -initSchema -dbType mysql
+
+	Metastore connection URL:	 jdbc:mysql://localhost/metastore?createDatabaseIfNotExist=true
+	Metastore Connection Driver :	 com.mysql.jdbc.Driver
+	Metastore connection User:	 hiveuser
+	Starting metastore schema initialization to 2.1.0
+	Initialization script hive-schema-2.1.0.mysql.sql
+	Initialization script completed
+	schemaTool completed
+================================================
+-------------------------------------------------------------
+Startthe Hive
+
+hive
+---------------------------------------------------------------------------------------------------------------------------------------
+Installing Sqoop 
+cd /home/esak/Bdata
+ln -s sqoop-1.4.6 sqoop
+
+export the Variables to Bashrc 
+
+=============================================================================================
+=============================================================================================
+Installing HBASE
+
+hbase env.sh 
+	export JAVA_HOME=/home/esak/java/jdk1.8.0_151
+	export HBASE_REGIONSERVERS=${HBASE_HOME}/conf/regionservers
+	export HBASE_MANAGES_ZK=true
+
+hbase-site.xml 
+
+<configuration>
+   <property>
+      <name>hbase.rootdir</name>
+      <value>hdfs://localhost:8030/hbase</value>
+   </property>
+
+   <property>
+    <name>hbase.zookeeper.property.clientPort</name>
+    <value>2222</value>
+  </property>
+	
+   <property>
+      <name>hbase.zookeeper.property.dataDir</name>
+      <value>/home/esak/Bdata/zookeeper</value>
+   </property>
+   
+   <property>
+     <name>hbase.cluster.distributed</name>
+     <value>true</value>
+   </property>
+</configuration>
+
+
+export the variables in .bashrc File 
+
+start-hbase.sh
+
+to start the hbaae shell
+hbase shell
+
+
+
+=============================================================================================
+=============================================================================================
+INSTALL OOZIE
+
+
+
+
+=============================================================================================
+=============================================================================================
+
+=============================================================================================
+=============================================================================================

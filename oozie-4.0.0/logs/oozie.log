@@ -1,0 +1,259 @@
+2018-01-07 01:30:24,145  INFO XLogService:539 - 
+ ******************************************************************************* 
+  STARTUP MSG: Oozie BUILD_VERSION [4.0.0] compiled by [user] on [${build.time}]
+  STARTUP MSG:       revision [${vc.revision}]@[${vc.url}]
+*******************************************************************************
+2018-01-07 01:30:24,149  INFO XLogService:539 - Log4j configuration file [oozie-log4j.properties]
+2018-01-07 01:30:24,150  INFO XLogService:539 - Log4j configuration file loaded from [/home/esak/Bdata/oozie/conf]
+2018-01-07 01:30:24,151  INFO XLogService:539 - Log4j reload interval [10 sec]
+2018-01-07 01:30:24,174  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie home dir  [/home/esak/Bdata/oozie]
+2018-01-07 01:30:24,175  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie conf dir  [/home/esak/Bdata/oozie/conf]
+2018-01-07 01:30:24,175  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie conf file [oozie-site.xml]
+2018-01-07 01:30:24,735  INFO Services:539 - USER[-] GROUP[-] Exiting null Entering NORMAL
+2018-01-07 01:30:24,759  INFO Services:539 - USER[-] GROUP[-] Initialized runtime directory [/tmp/oozie-root4552778152131501194.dir]
+2018-01-07 01:30:28,677  INFO XLogService:539 - 
+ ******************************************************************************* 
+  STARTUP MSG: Oozie BUILD_VERSION [4.0.0] compiled by [user] on [${build.time}]
+  STARTUP MSG:       revision [${vc.revision}]@[${vc.url}]
+*******************************************************************************
+2018-01-07 01:30:28,683  INFO XLogService:539 - Log4j configuration file [oozie-log4j.properties]
+2018-01-07 01:30:28,683  INFO XLogService:539 - Log4j configuration file loaded from [/home/esak/Bdata/oozie/conf]
+2018-01-07 01:30:28,683  INFO XLogService:539 - Log4j reload interval [10 sec]
+2018-01-07 01:30:28,689  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie home dir  [/home/esak/Bdata/oozie]
+2018-01-07 01:30:28,701  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie conf dir  [/home/esak/Bdata/oozie/conf]
+2018-01-07 01:30:28,702  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie conf file [oozie-site.xml]
+2018-01-07 01:30:28,769  INFO Services:539 - USER[-] GROUP[-] Exiting null Entering NORMAL
+2018-01-07 01:30:28,777  INFO Services:539 - USER[-] GROUP[-] Initialized runtime directory [/tmp/oozie-root3436711744143238725.dir]
+2018-01-07 01:30:29,018  INFO XLogService:539 - 
+ ******************************************************************************* 
+  STARTUP MSG: Oozie BUILD_VERSION [4.0.0] compiled by [user] on [${build.time}]
+  STARTUP MSG:       revision [${vc.revision}]@[${vc.url}]
+*******************************************************************************
+2018-01-07 01:30:29,019  INFO XLogService:539 - Log4j configuration file [oozie-log4j.properties]
+2018-01-07 01:30:29,019  INFO XLogService:539 - Log4j configuration file loaded from [/home/esak/Bdata/oozie/conf]
+2018-01-07 01:30:29,019  INFO XLogService:539 - Log4j reload interval [10 sec]
+2018-01-07 01:30:29,020  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie home dir  [/home/esak/Bdata/oozie]
+2018-01-07 01:30:29,020  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie conf dir  [/home/esak/Bdata/oozie/conf]
+2018-01-07 01:30:29,034  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie conf file [oozie-site.xml]
+2018-01-07 01:30:29,095  INFO Services:539 - USER[-] GROUP[-] Exiting null Entering NORMAL
+2018-01-07 01:30:29,098  INFO Services:539 - USER[-] GROUP[-] Initialized runtime directory [/tmp/oozie-root1091728650036961049.dir]
+2018-01-07 01:30:29,127  INFO XLogService:539 - 
+ ******************************************************************************* 
+  STARTUP MSG: Oozie BUILD_VERSION [4.0.0] compiled by [user] on [${build.time}]
+  STARTUP MSG:       revision [${vc.revision}]@[${vc.url}]
+*******************************************************************************
+2018-01-07 01:30:29,131  INFO XLogService:539 - Log4j configuration file [oozie-log4j.properties]
+2018-01-07 01:30:29,131  INFO XLogService:539 - Log4j configuration file loaded from [/home/esak/Bdata/oozie/conf]
+2018-01-07 01:30:29,132  INFO XLogService:539 - Log4j reload interval [10 sec]
+2018-01-07 01:30:29,137  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie home dir  [/home/esak/Bdata/oozie]
+2018-01-07 01:30:29,144  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie conf dir  [/home/esak/Bdata/oozie/conf]
+2018-01-07 01:30:29,144  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie conf file [oozie-site.xml]
+2018-01-07 01:30:29,200  INFO Services:539 - USER[-] GROUP[-] Exiting null Entering NORMAL
+2018-01-07 01:30:29,209  INFO Services:539 - USER[-] GROUP[-] Initialized runtime directory [/tmp/oozie-root2067965322897686317.dir]
+2018-01-07 01:30:31,994  INFO XLogService:539 - 
+ ******************************************************************************* 
+  STARTUP MSG: Oozie BUILD_VERSION [4.0.0] compiled by [user] on [${build.time}]
+  STARTUP MSG:       revision [${vc.revision}]@[${vc.url}]
+*******************************************************************************
+2018-01-07 01:30:31,998  INFO XLogService:539 - Log4j configuration file [oozie-log4j.properties]
+2018-01-07 01:30:31,999  INFO XLogService:539 - Log4j configuration file loaded from [/home/esak/Bdata/oozie/conf]
+2018-01-07 01:30:31,999  INFO XLogService:539 - Log4j reload interval [10 sec]
+2018-01-07 01:30:31,999  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie home dir  [/home/esak/Bdata/oozie]
+2018-01-07 01:30:31,999  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie conf dir  [/home/esak/Bdata/oozie/conf]
+2018-01-07 01:30:31,999  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie conf file [oozie-site.xml]
+2018-01-07 01:30:32,026  INFO Services:539 - USER[-] GROUP[-] Exiting null Entering NORMAL
+2018-01-07 01:30:32,035  INFO Services:539 - USER[-] GROUP[-] Initialized runtime directory [/tmp/oozie-root4060822173376093204.dir]
+2018-01-07 01:30:40,309  INFO XLogService:539 - 
+ ******************************************************************************* 
+  STARTUP MSG: Oozie BUILD_VERSION [4.0.0] compiled by [user] on [${build.time}]
+  STARTUP MSG:       revision [${vc.revision}]@[${vc.url}]
+*******************************************************************************
+2018-01-07 01:30:40,314  INFO XLogService:539 - Log4j configuration file [oozie-log4j.properties]
+2018-01-07 01:30:40,315  INFO XLogService:539 - Log4j configuration file loaded from [/home/esak/Bdata/oozie/conf]
+2018-01-07 01:30:40,315  INFO XLogService:539 - Log4j reload interval [10 sec]
+2018-01-07 01:30:40,327  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie home dir  [/home/esak/Bdata/oozie]
+2018-01-07 01:30:40,330  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie conf dir  [/home/esak/Bdata/oozie/conf]
+2018-01-07 01:30:40,330  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie conf file [oozie-site.xml]
+2018-01-07 01:30:40,369  INFO Services:539 - USER[-] GROUP[-] Exiting null Entering NORMAL
+2018-01-07 01:30:40,382  INFO Services:539 - USER[-] GROUP[-] Initialized runtime directory [/tmp/oozie-root1055061229137250092.dir]
+2018-01-07 01:30:40,602  INFO XLogService:539 - 
+ ******************************************************************************* 
+  STARTUP MSG: Oozie BUILD_VERSION [4.0.0] compiled by [user] on [${build.time}]
+  STARTUP MSG:       revision [${vc.revision}]@[${vc.url}]
+*******************************************************************************
+2018-01-07 01:30:40,606  INFO XLogService:539 - Log4j configuration file [oozie-log4j.properties]
+2018-01-07 01:30:40,607  INFO XLogService:539 - Log4j configuration file loaded from [/home/esak/Bdata/oozie/conf]
+2018-01-07 01:30:40,607  INFO XLogService:539 - Log4j reload interval [10 sec]
+2018-01-07 01:30:40,608  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie home dir  [/home/esak/Bdata/oozie]
+2018-01-07 01:30:40,611  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie conf dir  [/home/esak/Bdata/oozie/conf]
+2018-01-07 01:30:40,611  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie conf file [oozie-site.xml]
+2018-01-07 01:30:40,639  INFO Services:539 - USER[-] GROUP[-] Exiting null Entering NORMAL
+2018-01-07 01:30:40,645  INFO Services:539 - USER[-] GROUP[-] Initialized runtime directory [/tmp/oozie-root3312125993977379224.dir]
+2018-01-07 01:31:24,532  INFO XLogService:539 - 
+ ******************************************************************************* 
+  STARTUP MSG: Oozie BUILD_VERSION [4.0.0] compiled by [user] on [${build.time}]
+  STARTUP MSG:       revision [${vc.revision}]@[${vc.url}]
+*******************************************************************************
+2018-01-07 01:31:24,541  INFO XLogService:539 - Log4j configuration file [oozie-log4j.properties]
+2018-01-07 01:31:24,542  INFO XLogService:539 - Log4j configuration file loaded from [/home/esak/Bdata/oozie/conf]
+2018-01-07 01:31:24,542  INFO XLogService:539 - Log4j reload interval [10 sec]
+2018-01-07 01:31:24,580  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie home dir  [/home/esak/Bdata/oozie]
+2018-01-07 01:31:24,580  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie conf dir  [/home/esak/Bdata/oozie/conf]
+2018-01-07 01:31:24,581  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie conf file [oozie-site.xml]
+2018-01-07 01:31:25,016  INFO Services:539 - USER[-] GROUP[-] Exiting null Entering NORMAL
+2018-01-07 01:31:25,021  INFO Services:539 - USER[-] GROUP[-] Initialized runtime directory [/tmp/oozie-root7714010866759188603.dir]
+2018-01-07 01:31:25,021  INFO ConfigurationService:539 - USER[-] GROUP[-] Programmatic configuration change, property[oozie.services]=[org.apache.oozie.service.LiteWorkflowAppService, org.apache.oozie.service.HadoopAccessorService]
+2018-01-07 01:31:25,036  INFO HadoopAccessorService:539 - USER[-] GROUP[-] JOB_TRACKER_WHITELIST :[ ], Total entries :0
+2018-01-07 01:31:25,036  INFO HadoopAccessorService:539 - USER[-] GROUP[-] NAME_NODE_WHITELIST :[ ], Total entries :0
+2018-01-07 01:31:25,037  INFO HadoopAccessorService:539 - USER[-] GROUP[-] Oozie Kerberos Authentication [disabled]
+2018-01-07 01:31:25,319  WARN NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-01-07 01:31:25,443  INFO Services:539 - Initialized
+2018-01-07 01:31:25,448  INFO Services:539 - Running with JARs for Hadoop version [2.2.0]
+2018-01-07 01:31:25,448  INFO Services:539 - Oozie System ID [oozie-root] started!
+2018-01-07 01:32:38,558  INFO XLogService:539 - 
+ ******************************************************************************* 
+  STARTUP MSG: Oozie BUILD_VERSION [4.0.0] compiled by [user] on [${build.time}]
+  STARTUP MSG:       revision [${vc.revision}]@[${vc.url}]
+*******************************************************************************
+2018-01-07 01:32:38,561  INFO XLogService:539 - Log4j configuration file [oozie-log4j.properties]
+2018-01-07 01:32:38,562  INFO XLogService:539 - Log4j configuration file loaded from [/home/esak/Bdata/oozie/conf]
+2018-01-07 01:32:38,562  INFO XLogService:539 - Log4j reload interval [10 sec]
+2018-01-07 01:32:38,596  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie home dir  [/home/esak/Bdata/oozie]
+2018-01-07 01:32:38,598  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie conf dir  [/home/esak/Bdata/oozie/conf]
+2018-01-07 01:32:38,598  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie conf file [oozie-site.xml]
+2018-01-07 01:32:39,023  INFO ConfigurationService:539 - USER[-] GROUP[-] Configuration change via System Property, [oozie.base.url]=[http://localhost:11000/oozie]
+2018-01-07 01:32:39,025  WARN ConfigurationService:542 - USER[-] GROUP[-] System property [oozie.https.keystore.pass] no defined in Oozie configuration, ignored
+2018-01-07 01:32:39,025  WARN ConfigurationService:542 - USER[-] GROUP[-] System property [oozie.admin.port] no defined in Oozie configuration, ignored
+2018-01-07 01:32:39,025  WARN ConfigurationService:542 - USER[-] GROUP[-] System property [oozie.https.port] no defined in Oozie configuration, ignored
+2018-01-07 01:32:39,027  WARN ConfigurationService:542 - USER[-] GROUP[-] System property [oozie.https.keystore.file] no defined in Oozie configuration, ignored
+2018-01-07 01:32:39,035  INFO Services:539 - USER[-] GROUP[-] Exiting null Entering NORMAL
+2018-01-07 01:32:39,043  INFO Services:539 - USER[-] GROUP[-] Initialized runtime directory [/home/esak/Bdata/oozie/oozie-server/temp/oozie-root4882890927312249033.dir]
+2018-01-07 01:32:39,201  WARN ConfigurationService:542 - USER[-] GROUP[-] Configuration property [oozie.service.ELService.ext.constants.job-submit] not found, using default []
+2018-01-07 01:32:39,202  WARN ConfigurationService:542 - USER[-] GROUP[-] Configuration property [oozie.service.ELService.ext.functions.job-submit] not found, using default []
+2018-01-07 01:32:39,278  WARN ConfigUtils:542 - USER[-] GROUP[-] Using a deprecated configuration property [oozie.service.AuthorizationService.security.enabled], should use [oozie.service.AuthorizationService.authorization.enabled].  Please delete the deprecated property in order for the new property to take effect.
+2018-01-07 01:32:39,278  WARN AuthorizationService:542 - USER[-] GROUP[-] Oozie running with authorization disabled
+2018-01-07 01:32:39,279  INFO HadoopAccessorService:539 - USER[-] GROUP[-] JOB_TRACKER_WHITELIST :[ ], Total entries :0
+2018-01-07 01:32:39,279  INFO HadoopAccessorService:539 - USER[-] GROUP[-] NAME_NODE_WHITELIST :[ ], Total entries :0
+2018-01-07 01:32:39,280  INFO HadoopAccessorService:539 - USER[-] GROUP[-] Oozie Kerberos Authentication [disabled]
+2018-01-07 01:32:39,667  WARN NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-01-07 01:32:39,810  INFO URIHandlerService:539 - USER[-] GROUP[-] Loaded urihandlers [org.apache.oozie.dependency.FSURIHandler]
+2018-01-07 01:32:39,814  INFO URIHandlerService:539 - USER[-] GROUP[-] Loaded default urihandler org.apache.oozie.dependency.FSURIHandler
+2018-01-07 01:32:46,593  INFO JPAService:539 - USER[-] GROUP[-] TOKEN[-] APP[-] JOB[-] ACTION[-] All entities initialized
+2018-01-07 01:32:46,597  INFO JPAService:539 - USER[-] GROUP[-] TOKEN[-] APP[-] JOB[-] ACTION[-] JPA configuration: DriverClassName=org.apache.derby.jdbc.EmbeddedDriver,Url=jdbc:derby:/home/esak/Bdata/oozie/data/oozie-db;create=true,Username=sa,Password=***,MaxActive=10,TestOnBorrow=false,TestOnReturn=false,TestWhileIdle=false
+2018-01-07 01:32:52,354  INFO Services:539 - Initialized
+2018-01-07 01:32:52,360  INFO Services:539 - Running with JARs for Hadoop version [2.2.0]
+2018-01-07 01:32:52,360  INFO Services:539 - Oozie System ID [oozie-root] started!
+2018-01-07 01:33:02,349  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:33:02,356  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running coordinator status service first instance
+2018-01-07 01:33:02,357  INFO PauseTransitService:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:33:03,071  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running bundle status service first instance
+2018-01-07 01:33:03,087  INFO CoordMaterializeTriggerService$CoordMaterializeTriggerRunnable:539 - USER[-] GROUP[-] TOKEN[-] APP[-] JOB[-] ACTION[-] CoordMaterializeTriggerService - Curr Date= Sun Jan 07 01:38:02 IST 2018, Num jobs to materialize = 0
+2018-01-07 01:33:03,187  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:33:03,297  INFO PauseTransitService:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:34:03,192  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:34:03,199  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running coordinator status service from last instance time =  2018-01-06T20:03Z
+2018-01-07 01:34:03,266  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running bundle status service from last instance time =  2018-01-06T20:03Z
+2018-01-07 01:34:03,295  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:34:03,305  INFO PauseTransitService:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:34:03,337  INFO PauseTransitService:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:34:05,535  INFO XLogService:539 - 
+ ******************************************************************************* 
+  STARTUP MSG: Oozie BUILD_VERSION [4.0.0] compiled by [user] on [${build.time}]
+  STARTUP MSG:       revision [${vc.revision}]@[${vc.url}]
+*******************************************************************************
+2018-01-07 01:34:05,545  INFO XLogService:539 - Log4j configuration file [oozie-log4j.properties]
+2018-01-07 01:34:05,547  INFO XLogService:539 - Log4j configuration file loaded from [/home/esak/Bdata/oozie/conf]
+2018-01-07 01:34:05,547  INFO XLogService:539 - Log4j reload interval [10 sec]
+2018-01-07 01:34:05,581  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie home dir  [/home/esak/Bdata/oozie]
+2018-01-07 01:34:05,585  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie conf dir  [/home/esak/Bdata/oozie/conf]
+2018-01-07 01:34:05,585  INFO ConfigurationService:539 - USER[-] GROUP[-] Oozie conf file [oozie-site.xml]
+2018-01-07 01:34:05,983  INFO Services:539 - USER[-] GROUP[-] Exiting null Entering NORMAL
+2018-01-07 01:34:05,987  INFO Services:539 - USER[-] GROUP[-] Initialized runtime directory [/tmp/oozie-root8937057035164508757.dir]
+2018-01-07 01:34:05,987  INFO ConfigurationService:539 - USER[-] GROUP[-] Programmatic configuration change, property[oozie.services]=[org.apache.oozie.service.LiteWorkflowAppService, org.apache.oozie.service.HadoopAccessorService]
+2018-01-07 01:34:06,006  INFO HadoopAccessorService:539 - USER[-] GROUP[-] JOB_TRACKER_WHITELIST :[ ], Total entries :0
+2018-01-07 01:34:06,009  INFO HadoopAccessorService:539 - USER[-] GROUP[-] NAME_NODE_WHITELIST :[ ], Total entries :0
+2018-01-07 01:34:06,010  INFO HadoopAccessorService:539 - USER[-] GROUP[-] Oozie Kerberos Authentication [disabled]
+2018-01-07 01:34:06,275  WARN NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-01-07 01:34:06,434  INFO Services:539 - Initialized
+2018-01-07 01:34:06,440  INFO Services:539 - Running with JARs for Hadoop version [2.2.0]
+2018-01-07 01:34:06,441  INFO Services:539 - Oozie System ID [oozie-root] started!
+2018-01-07 01:35:03,296  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:35:03,297  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running coordinator status service from last instance time =  2018-01-06T20:04Z
+2018-01-07 01:35:03,302  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running bundle status service from last instance time =  2018-01-06T20:04Z
+2018-01-07 01:35:03,307  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:35:03,343  INFO PauseTransitService:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:35:03,362  INFO PauseTransitService:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:36:03,308  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:36:03,309  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running coordinator status service from last instance time =  2018-01-06T20:05Z
+2018-01-07 01:36:03,313  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running bundle status service from last instance time =  2018-01-06T20:05Z
+2018-01-07 01:36:03,315  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:36:03,367  INFO PauseTransitService:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:36:03,392  INFO PauseTransitService:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:37:03,315  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:37:03,316  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running coordinator status service from last instance time =  2018-01-06T20:06Z
+2018-01-07 01:37:03,317  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running bundle status service from last instance time =  2018-01-06T20:06Z
+2018-01-07 01:37:03,322  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:37:03,395  INFO PauseTransitService:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:37:03,421  INFO PauseTransitService:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:38:03,090  INFO CoordMaterializeTriggerService$CoordMaterializeTriggerRunnable:539 - USER[-] GROUP[-] TOKEN[-] APP[-] JOB[-] ACTION[-] CoordMaterializeTriggerService - Curr Date= Sun Jan 07 01:43:03 IST 2018, Num jobs to materialize = 0
+2018-01-07 01:38:03,323  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:38:03,323  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running coordinator status service from last instance time =  2018-01-06T20:07Z
+2018-01-07 01:38:03,326  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running bundle status service from last instance time =  2018-01-06T20:07Z
+2018-01-07 01:38:03,335  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:38:03,423  INFO PauseTransitService:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:38:03,452  INFO PauseTransitService:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:39:03,336  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:39:03,337  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running coordinator status service from last instance time =  2018-01-06T20:08Z
+2018-01-07 01:39:03,343  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running bundle status service from last instance time =  2018-01-06T20:08Z
+2018-01-07 01:39:03,361  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:39:03,471  INFO PauseTransitService:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:39:03,549  INFO PauseTransitService:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:40:03,364  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:40:03,366  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running coordinator status service from last instance time =  2018-01-06T20:09Z
+2018-01-07 01:40:03,373  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running bundle status service from last instance time =  2018-01-06T20:09Z
+2018-01-07 01:40:03,383  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:40:03,553  INFO PauseTransitService:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:40:03,625  INFO PauseTransitService:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:41:03,384  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:41:03,385  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running coordinator status service from last instance time =  2018-01-06T20:10Z
+2018-01-07 01:41:03,396  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running bundle status service from last instance time =  2018-01-06T20:10Z
+2018-01-07 01:41:03,405  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:41:03,626  INFO PauseTransitService:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:41:03,641  INFO PauseTransitService:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:42:03,408  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:42:03,409  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running coordinator status service from last instance time =  2018-01-06T20:11Z
+2018-01-07 01:42:03,415  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running bundle status service from last instance time =  2018-01-06T20:11Z
+2018-01-07 01:42:03,421  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:42:03,642  INFO PauseTransitService:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:42:03,692  INFO PauseTransitService:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:43:03,092  INFO CoordMaterializeTriggerService$CoordMaterializeTriggerRunnable:539 - USER[-] GROUP[-] TOKEN[-] APP[-] JOB[-] ACTION[-] CoordMaterializeTriggerService - Curr Date= Sun Jan 07 01:48:03 IST 2018, Num jobs to materialize = 0
+2018-01-07 01:43:03,428  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:43:03,428  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running coordinator status service from last instance time =  2018-01-06T20:12Z
+2018-01-07 01:43:03,430  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running bundle status service from last instance time =  2018-01-06T20:12Z
+2018-01-07 01:43:03,440  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:43:03,694  INFO PauseTransitService:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:43:03,730  INFO PauseTransitService:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:44:03,442  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:44:03,442  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running coordinator status service from last instance time =  2018-01-06T20:13Z
+2018-01-07 01:44:03,447  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running bundle status service from last instance time =  2018-01-06T20:13Z
+2018-01-07 01:44:03,448  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:44:03,740  INFO PauseTransitService:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:44:03,772  INFO PauseTransitService:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:45:03,449  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:45:03,453  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running coordinator status service from last instance time =  2018-01-06T20:14Z
+2018-01-07 01:45:03,466  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running bundle status service from last instance time =  2018-01-06T20:14Z
+2018-01-07 01:45:03,480  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:45:03,776  INFO PauseTransitService:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:45:03,821  INFO PauseTransitService:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:46:03,483  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:46:03,484  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running coordinator status service from last instance time =  2018-01-06T20:15Z
+2018-01-07 01:46:03,495  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running bundle status service from last instance time =  2018-01-06T20:15Z
+2018-01-07 01:46:03,505  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:46:03,822  INFO PauseTransitService:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:46:03,838  INFO PauseTransitService:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:47:03,506  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:47:03,507  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running coordinator status service from last instance time =  2018-01-06T20:16Z
+2018-01-07 01:47:03,524  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Running bundle status service from last instance time =  2018-01-06T20:16Z
+2018-01-07 01:47:03,535  INFO StatusTransitService$StatusTransitRunnable:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.StatusTransitService]
+2018-01-07 01:47:03,841  INFO PauseTransitService:539 - USER[-] GROUP[-] Acquired lock for [org.apache.oozie.service.PauseTransitService]
+2018-01-07 01:47:03,870  INFO PauseTransitService:539 - USER[-] GROUP[-] Released lock for [org.apache.oozie.service.PauseTransitService]

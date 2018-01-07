@@ -1,0 +1,64 @@
+2018-01-07 01:30:24,149  INFO oozieops:539 - 
+ ******************************************************************************* 
+  STARTUP MSG: Oozie BUILD_VERSION [4.0.0] compiled by [user] on [${build.time}]
+  STARTUP MSG:       revision [${vc.revision}]@[${vc.url}]
+*******************************************************************************
+2018-01-07 01:30:24,739  INFO oozieops:539 - USER[-] GROUP[-] Exiting null Entering NORMAL
+2018-01-07 01:30:28,683  INFO oozieops:539 - 
+ ******************************************************************************* 
+  STARTUP MSG: Oozie BUILD_VERSION [4.0.0] compiled by [user] on [${build.time}]
+  STARTUP MSG:       revision [${vc.revision}]@[${vc.url}]
+*******************************************************************************
+2018-01-07 01:30:28,777  INFO oozieops:539 - USER[-] GROUP[-] Exiting null Entering NORMAL
+2018-01-07 01:30:29,019  INFO oozieops:539 - 
+ ******************************************************************************* 
+  STARTUP MSG: Oozie BUILD_VERSION [4.0.0] compiled by [user] on [${build.time}]
+  STARTUP MSG:       revision [${vc.revision}]@[${vc.url}]
+*******************************************************************************
+2018-01-07 01:30:29,097  INFO oozieops:539 - USER[-] GROUP[-] Exiting null Entering NORMAL
+2018-01-07 01:30:29,130  INFO oozieops:539 - 
+ ******************************************************************************* 
+  STARTUP MSG: Oozie BUILD_VERSION [4.0.0] compiled by [user] on [${build.time}]
+  STARTUP MSG:       revision [${vc.revision}]@[${vc.url}]
+*******************************************************************************
+2018-01-07 01:30:29,208  INFO oozieops:539 - USER[-] GROUP[-] Exiting null Entering NORMAL
+2018-01-07 01:30:31,998  INFO oozieops:539 - 
+ ******************************************************************************* 
+  STARTUP MSG: Oozie BUILD_VERSION [4.0.0] compiled by [user] on [${build.time}]
+  STARTUP MSG:       revision [${vc.revision}]@[${vc.url}]
+*******************************************************************************
+2018-01-07 01:30:32,034  INFO oozieops:539 - USER[-] GROUP[-] Exiting null Entering NORMAL
+2018-01-07 01:30:40,314  INFO oozieops:539 - 
+ ******************************************************************************* 
+  STARTUP MSG: Oozie BUILD_VERSION [4.0.0] compiled by [user] on [${build.time}]
+  STARTUP MSG:       revision [${vc.revision}]@[${vc.url}]
+*******************************************************************************
+2018-01-07 01:30:40,373  INFO oozieops:539 - USER[-] GROUP[-] Exiting null Entering NORMAL
+2018-01-07 01:30:40,606  INFO oozieops:539 - 
+ ******************************************************************************* 
+  STARTUP MSG: Oozie BUILD_VERSION [4.0.0] compiled by [user] on [${build.time}]
+  STARTUP MSG:       revision [${vc.revision}]@[${vc.url}]
+*******************************************************************************
+2018-01-07 01:30:40,645  INFO oozieops:539 - USER[-] GROUP[-] Exiting null Entering NORMAL
+2018-01-07 01:31:24,541  INFO oozieops:539 - 
+ ******************************************************************************* 
+  STARTUP MSG: Oozie BUILD_VERSION [4.0.0] compiled by [user] on [${build.time}]
+  STARTUP MSG:       revision [${vc.revision}]@[${vc.url}]
+*******************************************************************************
+2018-01-07 01:31:25,020  INFO oozieops:539 - USER[-] GROUP[-] Exiting null Entering NORMAL
+2018-01-07 01:31:25,021  INFO oozieops:539 - USER[-] GROUP[-] Programmatic configuration change, property[oozie.services]=[org.apache.oozie.service.LiteWorkflowAppService, org.apache.oozie.service.HadoopAccessorService]
+2018-01-07 01:32:38,561  INFO oozieops:539 - 
+ ******************************************************************************* 
+  STARTUP MSG: Oozie BUILD_VERSION [4.0.0] compiled by [user] on [${build.time}]
+  STARTUP MSG:       revision [${vc.revision}]@[${vc.url}]
+*******************************************************************************
+2018-01-07 01:32:39,039  INFO oozieops:539 - USER[-] GROUP[-] Exiting null Entering NORMAL
+2018-01-07 01:32:39,202  WARN oozieops:542 - USER[-] GROUP[-] Configuration property [oozie.service.ELService.ext.constants.job-submit] not found, using default []
+2018-01-07 01:32:39,202  WARN oozieops:542 - USER[-] GROUP[-] Configuration property [oozie.service.ELService.ext.functions.job-submit] not found, using default []
+2018-01-07 01:34:05,543  INFO oozieops:539 - 
+ ******************************************************************************* 
+  STARTUP MSG: Oozie BUILD_VERSION [4.0.0] compiled by [user] on [${build.time}]
+  STARTUP MSG:       revision [${vc.revision}]@[${vc.url}]
+*******************************************************************************
+2018-01-07 01:34:05,986  INFO oozieops:539 - USER[-] GROUP[-] Exiting null Entering NORMAL
+2018-01-07 01:34:05,990  INFO oozieops:539 - USER[-] GROUP[-] Programmatic configuration change, property[oozie.services]=[org.apache.oozie.service.LiteWorkflowAppService, org.apache.oozie.service.HadoopAccessorService]

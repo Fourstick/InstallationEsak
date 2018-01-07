@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+2018-01-06 20:02:42.708 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.6.1.0 - (938214): instance a816c00e-0160-cd11-7858-000004f5dd98 
+on database directory /home/esak/Bdata/oozie-4.0.0/data/oozie-db   with class loader WebappClassLoader
+  context: /oozie
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+org.apache.catalina.loader.StandardClassLoader@5e9f23b4
+
+
+Database Class Loader started - derby.database.classpath=''

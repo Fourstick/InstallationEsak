@@ -1,0 +1,1756 @@
+2018-01-07 01:32:39,137  INFO oozieinstrumentation:539 - USER[-] GROUP[-] *********** Startup ***********
+2018-01-07 01:32:39,138  INFO oozieinstrumentation:539 - USER[-] GROUP[-] Java System Properties: 
+    java.vendor = Oracle Corporation
+    sun.java.launcher = SUN_STANDARD
+    catalina.base = /home/esak/Bdata/oozie/oozie-server
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    oozie.home.dir = /home/esak/Bdata/oozie
+    catalina.useNaming = true
+    os.name = Linux
+    sun.boot.class.path = /home/esak/java/jdk1.8.0_151/jre/lib/resources.jar:/home/esak/java/jdk1.8.0_151/jre/lib/rt.jar:/home/esak/java/jdk1.8.0_151/jre/lib/sunrsasign.jar:/home/esak/java/jdk1.8.0_151/jre/lib/jsse.jar:/home/esak/java/jdk1.8.0_151/jre/lib/jce.jar:/home/esak/java/jdk1.8.0_151/jre/lib/charsets.jar:/home/esak/java/jdk1.8.0_151/jre/lib/jfr.jar:/home/esak/java/jdk1.8.0_151/jre/classes
+    java.util.logging.config.file = /home/esak/Bdata/oozie/oozie-server/conf/logging.properties
+    oozie.https.keystore.pass = password
+    sun.desktop = gnome
+    java.vm.specification.vendor = Oracle Corporation
+    java.runtime.version = 1.8.0_151-b12
+    user.name = root
+    oozie.http.port = 11000
+    shared.loader = 
+    tomcat.util.buf.StringCache.byte.enabled = true
+    java.naming.factory.initial = org.apache.naming.java.javaURLContextFactory
+    user.language = en
+    sun.boot.library.path = /home/esak/java/jdk1.8.0_151/jre/lib/amd64
+    oozie.config.dir = /home/esak/Bdata/oozie/conf
+    java.version = 1.8.0_151
+    java.util.logging.manager = org.apache.juli.ClassLoaderLogManager
+    user.timezone = Asia/Kolkata
+    sun.arch.data.model = 64
+    java.endorsed.dirs = /home/esak/Bdata/oozie/oozie-server/endorsed
+    sun.cpu.isalist = 
+    sun.jnu.encoding = UTF-8
+    file.encoding.pkg = sun.io
+    package.access = sun.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper.,sun.beans.
+    file.separator = /
+    java.specification.name = Java Platform API Specification
+    java.class.version = 52.0
+    user.country = US
+    java.home = /home/esak/java/jdk1.8.0_151/jre
+    java.vm.info = mixed mode
+    os.version = 4.14.8-300.fc27.x86_64
+    oozie.data.dir = /home/esak/Bdata/oozie/data
+    sun.font.fontmanager = sun.awt.X11FontManager
+    path.separator = :
+    java.vm.version = 25.151-b12
+    oozie.log4j.file = oozie-log4j.properties
+    oozie.admin.port = 11001
+    java.awt.printerjob = sun.print.PSPrinterJob
+    sun.io.unicode.encoding = UnicodeLittle
+    awt.toolkit = sun.awt.X11.XToolkit
+    package.definition = sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper.
+    oozie.https.port = 11443
+    java.naming.factory.url.pkgs = org.apache.naming
+    user.home = /root
+    java.specification.vendor = Oracle Corporation
+    oozie.config.file = oozie-site.xml
+    java.library.path = 
+    java.vendor.url = http://java.oracle.com/
+    java.vm.vendor = Oracle Corporation
+    oozie.log4j.reload = 10
+    common.loader = ${catalina.base}/lib,${catalina.base}/lib/*.jar,${catalina.home}/lib,${catalina.home}/lib/*.jar
+    oozie.base.url = http://localhost:11000/oozie
+    java.runtime.name = Java(TM) SE Runtime Environment
+    sun.java.command = org.apache.catalina.startup.Bootstrap start
+    java.class.path = /home/esak/Bdata/oozie/oozie-server/bin/bootstrap.jar
+    derby.stream.error.file = /home/esak/Bdata/oozie/logs/derby.log
+    java.vm.specification.name = Java Virtual Machine Specification
+    java.vm.specification.version = 1.8
+    catalina.home = /home/esak/Bdata/oozie/oozie-server
+    sun.cpu.endian = little
+    sun.os.patch.level = unknown
+    java.io.tmpdir = /home/esak/Bdata/oozie/oozie-server/temp
+    java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+    server.loader = 
+    oozie.https.keystore.file = /root/.keystore
+    os.arch = amd64
+    java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+    java.ext.dirs = /home/esak/java/jdk1.8.0_151/jre/lib/ext:/usr/java/packages/lib/ext
+    user.dir = /home/esak/Bdata/oozie-4.0.0/bin
+    line.separator = 
+
+    java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+    file.encoding = UTF-8
+    oozie.http.hostname = localhost
+    java.specification.version = 1.8
+    oozie.log.dir = /home/esak/Bdata/oozie/logs
+
+2018-01-07 01:32:39,144  INFO oozieinstrumentation:539 - USER[-] GROUP[-] OS Env: 
+    PATH = /home/esak/Bdata/sqoop/bin:/home/esak/Bdata/hbase/bin:/home/esak/Bdata/oozie/bin:/home/esak/java/jdk1.8.0_151/bin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/home/esak/Bdata/scala-2.11.8/bin:/home/esak/java/jdk1.8.0_151/bin:/home/esak/Bdata/scala-2.11.8/bin:/home/esak/java/jdk1.8.0_151/bin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/Bdata/hive/bin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/java/jdk1.8.0_151/bin:/home/esak/java/jdk1.8.0_151/jre/bin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/home/esak/Bdata/scala-2.11.8/bin:/home/esak/java/jdk1.8.0_151/bin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/Bdata/hive/bin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/java/jdk1.8.0_151/bin:/home/esak/java/jdk1.8.0_151/jre/bin:/home/esak/Bdata/hive/bin:/home/esak/Bdata/scala-2.11.8/bin:/home/esak/java/jdk1.8.0_151/bin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/Bdata/hive/bin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/java/jdk1.8.0_151/bin:/home/esak/java/jdk1.8.0_151/jre/bin:/home/esak/Bdata/sqoop/bin:/home/esak/Bdata/hbase/bin:/home/esak/Bdata/scala-2.11.8/bin:/home/esak/java/jdk1.8.0_151/bin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/Bdata/hive/bin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/java/jdk1.8.0_151/bin:/home/esak/java/jdk1.8.0_151/jre/bin:/home/esak/Bdata/hive/bin:/home/esak/Bdata/scala-2.11.8/bin:/home/esak/java/jdk1.8.0_151/bin:/home/esak/Bdata/scala-2.11.8/bin:/home/esak/java/jdk1.8.0_151/bin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/Bdata/hive/bin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/java/jdk1.8.0_151/bin:/home/esak/java/jdk1.8.0_151/jre/bin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/home/esak/Bdata/scala-2.11.8/bin:/home/esak/java/jdk1.8.0_151/bin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/Bdata/hive/bin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/java/jdk1.8.0_151/bin:/home/esak/java/jdk1.8.0_151/jre/bin:/home/esak/Bdata/hive/bin:/home/esak/Bdata/scala-2.11.8/bin:/home/esak/java/jdk1.8.0_151/bin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/Bdata/hive/bin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/java/jdk1.8.0_151/bin:/home/esak/java/jdk1.8.0_151/jre/bin:/home/esak/Bdata/sqoop/bin:/home/esak/Bdata/hbase/bin:/home/esak/Bdata/scala-2.11.8/bin:/home/esak/java/jdk1.8.0_151/bin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/Bdata/hive/bin:/home/esak/java/jdk1.8.0_151/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hadoop-2.7.3/bin:/home/esak/Bdata/hadoop-2.7.3/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/Bdata/hive/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/esak/.local/bin:/home/esak/bin:/home/esak/java/jdk1.8.0_151/bin:/home/esak/java/jdk1.8.0_151/jre/bin
+    HADOOP_CONF_DIR = /home/esak/Bdata/hadoop-2.7.3/etc/hadoop
+    OOZIE_DATA = /home/esak/Bdata/oozie/data
+    HISTCONTROL = ignoredups
+    XMODIFIERS = @im=ibus
+    GDMSESSION = gnome
+    CATALINA_PID = /home/esak/Bdata/oozie/oozie-server/temp/oozie.pid
+    XDG_DATA_DIRS = /home/esak/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/
+    OOZIE_HTTP_HOSTNAME = localhost
+    MODULEPATH = /etc/scl/modulefiles:/etc/scl/modulefiles:/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+    SQOOP_CLASSPATH = /home/esak/Bdata/sqoop/conf
+    DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+    JRE_HOME = /home/esak/java/jdk1.8.0_151/jre
+    XDG_CURRENT_DESKTOP = GNOME
+    JOURNAL_STREAM = 9:27333
+    MAIL = /var/spool/mail/esak
+    COLORTERM = truecolor
+    SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/1368,unix/unix:/tmp/.ICE-unix/1368
+    OOZIE_CONFIG_FILE = oozie-site.xml
+    USERNAME = esak
+    LOGNAME = esak
+    PWD = /home/esak/Bdata/oozie/bin
+    OOZIE_HTTPS_KEYSTORE_PASS = password
+    HADOOP_PREFIX = /home/esak/Bdata/hadoop-2.7.3
+    GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+    LESSOPEN = ||/usr/bin/lesspipe.sh %s
+    SHELL = /bin/bash
+    OOZIE_CONFIG = /home/esak/Bdata/oozie/conf
+    OOZIE_ADMIN_PORT = 11001
+    SQOOP_CONF_DIR = /home/esak/Bdata/sqoop/conf
+    CATALINA_OPTS =  -Xmx1024m -Dderby.stream.error.file=/home/esak/Bdata/oozie/logs/derby.log -Doozie.home.dir=/home/esak/Bdata/oozie -Doozie.config.dir=/home/esak/Bdata/oozie/conf -Doozie.log.dir=/home/esak/Bdata/oozie/logs -Doozie.data.dir=/home/esak/Bdata/oozie/data -Doozie.config.file=oozie-site.xml -Doozie.log4j.file=oozie-log4j.properties -Doozie.log4j.reload=10 -Doozie.http.hostname=localhost -Doozie.admin.port=11001 -Doozie.http.port=11000 -Doozie.https.port=11443 -Doozie.base.url=http://localhost:11000/oozie -Doozie.https.keystore.file=/root/.keystore -Doozie.https.keystore.pass=password -Djava.library.path=
+    HIVE_HOME = /home/esak/Bdata/hive
+    OLDPWD = /home
+    BASH_FUNC_scl%% = () {  if [ "$1" = "load" -o "$1" = "unload" ]; then
+ eval "module $@";
+ else
+ /usr/bin/scl "$@";
+ fi
+}
+    GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+    OOZIE_URL = http://localhost:11000/oozie
+    OOZIE_BASE_URL = http://localhost:11000/oozie
+    OOZIE_HTTPS_KEYSTORE_FILE = /root/.keystore
+    HADOOP_HOME = /home/esak/Bdata/hadoop-2.7.3
+    OOZIE_HTTP_PORT = 11000
+    XDG_SESSION_DESKTOP = gnome
+    LS_COLORS = rs=0:di=38;5;33:ln=38;5;51:mh=00:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=01;05;37;41:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;40:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.zst=38;5;9:*.tzst=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.wim=38;5;9:*.swm=38;5;9:*.dwm=38;5;9:*.esd=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.mjpg=38;5;13:*.mjpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.m4a=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.oga=38;5;45:*.opus=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+    OOZIE_LOG4J_FILE = oozie-log4j.properties
+    SHLVL = 4
+    LOADEDMODULES = 
+    QT_IM_MODULE = ibus
+    HISTSIZE = 1000
+    JAVA_HOME = /home/esak/java/jdk1.8.0_151
+    CATALINA_OUT = /home/esak/Bdata/oozie/logs/catalina.out
+    TERM = xterm-256color
+    XFILESEARCHPATH = /usr/dt/app-defaults/%L/Dt
+    SQOOP_HOME = /home/esak/Bdata/sqoop
+    LANG = en_US.UTF-8
+    XDG_SESSION_TYPE = wayland
+    XDG_SESSION_ID = 2
+    CATALINA_BASE = /home/esak/Bdata/oozie/oozie-server
+    DISPLAY = :0
+    WAYLAND_DISPLAY = wayland-0
+    BASH_FUNC_module%% = () {  eval `/usr/bin/modulecmd bash $*`
+}
+    OOZIE_HOME = /home/esak/Bdata/oozie
+    SCALA_HOME = /home/esak/Bdata/scala-2.11.8
+    _ = /home/esak/java/jdk1.8.0_151/jre/bin/java
+    GDM_LANG = en_US.UTF-8
+    DESKTOP_SESSION = gnome
+    USER = esak
+    OOZIE_LOG = /home/esak/Bdata/oozie/logs
+    XDG_MENU_PREFIX = gnome-
+    OOZIE_LOG4J_RELOAD = 10
+    VTE_VERSION = 5002
+    GJS_DEBUG_OUTPUT = stderr
+    XDG_SEAT = seat0
+    SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+    HOSTNAME = localhost.localdomain
+    MODULESHOME = /usr/share/Modules
+    NLSPATH = /usr/dt/lib/nls/msg/%L/%N.cat
+    OOZIE_HTTPS_PORT = 11443
+    XDG_RUNTIME_DIR = /run/user/1000
+    HBASE_HOME = /home/esak/Bdata/hbase
+    XDG_VTNR = 2
+    HOME = /root
+
+2018-01-07 01:33:39,173  INFO oozieinstrumentation:539 - USER[-] GROUP[-] 
+variables:
+  configuration:
+    config.dir: /home/esak/Bdata/oozie/conf
+    config.file: /home/esak/Bdata/oozie/conf/oozie-site.xml
+  jobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+  jvm:
+    free.memory: 74225016
+    max.memory: 1037959168
+    total.memory: 127795200
+  locks:
+    locks: 0
+  logging:
+    config.file: oozie-log4j.properties
+    from.classpath: false
+    log.over.web-service: true
+    reload.interval: 10
+  oozie:
+    version: 4.0.0
+  windowjobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+samplers:
+  callablequeue:
+    queue.size: 0.0
+    threads.active: 0.0
+  webservices:
+    callback: 0.0
+    requests: 0.0
+    sla: 0.0
+    v0admin: 0.0
+    v0job: 0.0
+    v0jobs: 0.0
+    v1admin: 0.0
+    v1job: 0.0
+    v1jobs: 0.0
+    v2admin: 0.0
+    v2job: 0.0
+    v2sla: 0.0
+    version: 0.0
+counters:
+  callablequeue:
+    executed: 1
+    queued: 1
+  commands:
+    purge.executions: 1
+  jpa:
+    BundleActionsGetWaitingOlderJPAExecutor: 1
+    BundleJobsGetForPurgeJPAExecutor: 1
+    BundleJobsGetNeedStartJPAExecutor: 1
+    BundleJobsGetPausedJPAExecutor: 1
+    BundleJobsGetRunningOrPendingJPAExecutor: 1
+    BundleJobsGetUnpausedJPAExecutor: 1
+    CoordActionsGetForRecoveryJPAExecutor: 1
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: 1
+    CoordActionsRunningGetJPAExecutor: 1
+    CoordJobsGetForPurgeJPAExecutor: 1
+    CoordJobsGetPausedJPAExecutor: 1
+    CoordJobsGetPendingJPAExecutor: 1
+    CoordJobsGetUnpausedJPAExecutor: 1
+    CoordJobsToBeMaterializedJPAExecutor: 1
+    WorkflowActionsGetPendingJPAExecutor: 1
+    WorkflowActionsRunningGetJPAExecutor: 1
+    WorkflowJobsGetForPurgeJPAExecutor: 1
+timers:
+  callablequeue:
+    time.in.queue: ticks[1] totalAvg[11] ownAvg[11]
+  commands:
+    purge.call: ticks[1] totalAvg[776] ownAvg[776]
+    purge.execute: ticks[1] totalAvg[0] ownAvg[0]
+  jpa:
+    BundleActionsGetWaitingOlderJPAExecutor: ticks[1] totalAvg[33] ownAvg[33]
+    BundleJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[69] ownAvg[69]
+    BundleJobsGetNeedStartJPAExecutor: ticks[1] totalAvg[97] ownAvg[97]
+    BundleJobsGetPausedJPAExecutor: ticks[1] totalAvg[40] ownAvg[40]
+    BundleJobsGetRunningOrPendingJPAExecutor: ticks[1] totalAvg[101] ownAvg[101]
+    BundleJobsGetUnpausedJPAExecutor: ticks[1] totalAvg[677] ownAvg[677]
+    CoordActionsGetForRecoveryJPAExecutor: ticks[1] totalAvg[205] ownAvg[205]
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: ticks[1] totalAvg[98] ownAvg[98]
+    CoordActionsRunningGetJPAExecutor: ticks[1] totalAvg[102] ownAvg[102]
+    CoordJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[127] ownAvg[127]
+    CoordJobsGetPausedJPAExecutor: ticks[1] totalAvg[21] ownAvg[21]
+    CoordJobsGetPendingJPAExecutor: ticks[1] totalAvg[669] ownAvg[669]
+    CoordJobsGetUnpausedJPAExecutor: ticks[1] totalAvg[50] ownAvg[50]
+    CoordJobsToBeMaterializedJPAExecutor: ticks[1] totalAvg[686] ownAvg[686]
+    WorkflowActionsGetPendingJPAExecutor: ticks[1] totalAvg[621] ownAvg[621]
+    WorkflowActionsRunningGetJPAExecutor: ticks[1] totalAvg[617] ownAvg[617]
+    WorkflowJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[564] ownAvg[564]
+
+2018-01-07 01:34:39,186  INFO oozieinstrumentation:539 - USER[-] GROUP[-] 
+variables:
+  configuration:
+    config.dir: /home/esak/Bdata/oozie/conf
+    config.file: /home/esak/Bdata/oozie/conf/oozie-site.xml
+  jobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+  jvm:
+    free.memory: 67118512
+    max.memory: 1037959168
+    total.memory: 127795200
+  locks:
+    locks: 0
+  logging:
+    config.file: oozie-log4j.properties
+    from.classpath: false
+    log.over.web-service: true
+    reload.interval: 10
+  oozie:
+    version: 4.0.0
+  windowjobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+samplers:
+  callablequeue:
+    queue.size: 0.0
+    threads.active: 0.0
+  webservices:
+    callback: 0.0
+    requests: 0.0
+    sla: 0.0
+    v0admin: 0.0
+    v0job: 0.0
+    v0jobs: 0.0
+    v1admin: 0.0
+    v1job: 0.0
+    v1jobs: 0.0
+    v2admin: 0.0
+    v2job: 0.0
+    v2sla: 0.0
+    version: 0.0
+counters:
+  callablequeue:
+    executed: 1
+    queued: 1
+  commands:
+    purge.executions: 1
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: 1
+    BundleActionsGetWaitingOlderJPAExecutor: 2
+    BundleJobsGetForPurgeJPAExecutor: 1
+    BundleJobsGetNeedStartJPAExecutor: 2
+    BundleJobsGetPausedJPAExecutor: 2
+    BundleJobsGetRunningOrPendingJPAExecutor: 1
+    BundleJobsGetUnpausedJPAExecutor: 2
+    CoordActionsGetByLastModifiedTimeJPAExecutor: 1
+    CoordActionsGetForRecoveryJPAExecutor: 2
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: 2
+    CoordActionsRunningGetJPAExecutor: 2
+    CoordJobsGetForPurgeJPAExecutor: 1
+    CoordJobsGetPausedJPAExecutor: 2
+    CoordJobsGetPendingJPAExecutor: 1
+    CoordJobsGetUnpausedJPAExecutor: 2
+    CoordJobsToBeMaterializedJPAExecutor: 1
+    WorkflowActionsGetPendingJPAExecutor: 2
+    WorkflowActionsRunningGetJPAExecutor: 2
+    WorkflowJobsGetForPurgeJPAExecutor: 1
+timers:
+  callablequeue:
+    time.in.queue: ticks[1] totalAvg[11] ownAvg[11]
+  commands:
+    purge.call: ticks[1] totalAvg[776] ownAvg[776]
+    purge.execute: ticks[1] totalAvg[0] ownAvg[0]
+  db:
+    getWorkflowCountWithStatus: ticks[6] totalAvg[23] ownAvg[23]
+    getWorkflowCountWithStatusInLastNSecs: ticks[6] totalAvg[10] ownAvg[10]
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: ticks[1] totalAvg[21] ownAvg[21]
+    BundleActionsGetWaitingOlderJPAExecutor: ticks[2] totalAvg[17] ownAvg[17]
+    BundleJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[69] ownAvg[69]
+    BundleJobsGetNeedStartJPAExecutor: ticks[2] totalAvg[49] ownAvg[49]
+    BundleJobsGetPausedJPAExecutor: ticks[2] totalAvg[20] ownAvg[20]
+    BundleJobsGetRunningOrPendingJPAExecutor: ticks[1] totalAvg[101] ownAvg[101]
+    BundleJobsGetUnpausedJPAExecutor: ticks[2] totalAvg[342] ownAvg[342]
+    CoordActionsGetByLastModifiedTimeJPAExecutor: ticks[1] totalAvg[62] ownAvg[62]
+    CoordActionsGetForRecoveryJPAExecutor: ticks[2] totalAvg[108] ownAvg[108]
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: ticks[2] totalAvg[53] ownAvg[53]
+    CoordActionsRunningGetJPAExecutor: ticks[2] totalAvg[58] ownAvg[58]
+    CoordJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[127] ownAvg[127]
+    CoordJobsGetPausedJPAExecutor: ticks[2] totalAvg[14] ownAvg[14]
+    CoordJobsGetPendingJPAExecutor: ticks[1] totalAvg[669] ownAvg[669]
+    CoordJobsGetUnpausedJPAExecutor: ticks[2] totalAvg[28] ownAvg[28]
+    CoordJobsToBeMaterializedJPAExecutor: ticks[1] totalAvg[686] ownAvg[686]
+    WorkflowActionsGetPendingJPAExecutor: ticks[2] totalAvg[311] ownAvg[311]
+    WorkflowActionsRunningGetJPAExecutor: ticks[2] totalAvg[319] ownAvg[319]
+    WorkflowJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[564] ownAvg[564]
+
+2018-01-07 01:35:39,198  INFO oozieinstrumentation:539 - USER[-] GROUP[-] 
+variables:
+  configuration:
+    config.dir: /home/esak/Bdata/oozie/conf
+    config.file: /home/esak/Bdata/oozie/conf/oozie-site.xml
+  jobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+  jvm:
+    free.memory: 94715936
+    max.memory: 1037959168
+    total.memory: 127795200
+  locks:
+    locks: 0
+  logging:
+    config.file: oozie-log4j.properties
+    from.classpath: false
+    log.over.web-service: true
+    reload.interval: 10
+  oozie:
+    version: 4.0.0
+  windowjobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+samplers:
+  callablequeue:
+    queue.size: 0.0
+    threads.active: 0.0
+  webservices:
+    callback: 0.0
+    requests: 0.0
+    sla: 0.0
+    v0admin: 0.0
+    v0job: 0.0
+    v0jobs: 0.0
+    v1admin: 0.0
+    v1job: 0.0
+    v1jobs: 0.0
+    v2admin: 0.0
+    v2job: 0.0
+    v2sla: 0.0
+    version: 0.0
+counters:
+  callablequeue:
+    executed: 1
+    queued: 1
+  commands:
+    purge.executions: 1
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: 2
+    BundleActionsGetWaitingOlderJPAExecutor: 3
+    BundleJobsGetForPurgeJPAExecutor: 1
+    BundleJobsGetNeedStartJPAExecutor: 3
+    BundleJobsGetPausedJPAExecutor: 3
+    BundleJobsGetRunningOrPendingJPAExecutor: 1
+    BundleJobsGetUnpausedJPAExecutor: 3
+    CoordActionsGetByLastModifiedTimeJPAExecutor: 2
+    CoordActionsGetForRecoveryJPAExecutor: 3
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: 3
+    CoordActionsRunningGetJPAExecutor: 3
+    CoordJobsGetForPurgeJPAExecutor: 1
+    CoordJobsGetPausedJPAExecutor: 3
+    CoordJobsGetPendingJPAExecutor: 1
+    CoordJobsGetUnpausedJPAExecutor: 3
+    CoordJobsToBeMaterializedJPAExecutor: 1
+    WorkflowActionsGetPendingJPAExecutor: 3
+    WorkflowActionsRunningGetJPAExecutor: 3
+    WorkflowJobsGetForPurgeJPAExecutor: 1
+timers:
+  callablequeue:
+    time.in.queue: ticks[1] totalAvg[11] ownAvg[11]
+  commands:
+    purge.call: ticks[1] totalAvg[776] ownAvg[776]
+    purge.execute: ticks[1] totalAvg[0] ownAvg[0]
+  db:
+    getWorkflowCountWithStatus: ticks[6] totalAvg[23] ownAvg[23]
+    getWorkflowCountWithStatusInLastNSecs: ticks[6] totalAvg[10] ownAvg[10]
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: ticks[2] totalAvg[12] ownAvg[12]
+    BundleActionsGetWaitingOlderJPAExecutor: ticks[3] totalAvg[11] ownAvg[11]
+    BundleJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[69] ownAvg[69]
+    BundleJobsGetNeedStartJPAExecutor: ticks[3] totalAvg[34] ownAvg[34]
+    BundleJobsGetPausedJPAExecutor: ticks[3] totalAvg[14] ownAvg[14]
+    BundleJobsGetRunningOrPendingJPAExecutor: ticks[1] totalAvg[101] ownAvg[101]
+    BundleJobsGetUnpausedJPAExecutor: ticks[3] totalAvg[229] ownAvg[229]
+    CoordActionsGetByLastModifiedTimeJPAExecutor: ticks[2] totalAvg[33] ownAvg[33]
+    CoordActionsGetForRecoveryJPAExecutor: ticks[3] totalAvg[72] ownAvg[72]
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: ticks[3] totalAvg[36] ownAvg[36]
+    CoordActionsRunningGetJPAExecutor: ticks[3] totalAvg[41] ownAvg[41]
+    CoordJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[127] ownAvg[127]
+    CoordJobsGetPausedJPAExecutor: ticks[3] totalAvg[10] ownAvg[10]
+    CoordJobsGetPendingJPAExecutor: ticks[1] totalAvg[669] ownAvg[669]
+    CoordJobsGetUnpausedJPAExecutor: ticks[3] totalAvg[20] ownAvg[20]
+    CoordJobsToBeMaterializedJPAExecutor: ticks[1] totalAvg[686] ownAvg[686]
+    WorkflowActionsGetPendingJPAExecutor: ticks[3] totalAvg[208] ownAvg[208]
+    WorkflowActionsRunningGetJPAExecutor: ticks[3] totalAvg[213] ownAvg[213]
+    WorkflowJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[564] ownAvg[564]
+
+2018-01-07 01:36:39,206  INFO oozieinstrumentation:539 - USER[-] GROUP[-] 
+variables:
+  configuration:
+    config.dir: /home/esak/Bdata/oozie/conf
+    config.file: /home/esak/Bdata/oozie/conf/oozie-site.xml
+  jobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+  jvm:
+    free.memory: 91087144
+    max.memory: 1037959168
+    total.memory: 127795200
+  locks:
+    locks: 0
+  logging:
+    config.file: oozie-log4j.properties
+    from.classpath: false
+    log.over.web-service: true
+    reload.interval: 10
+  oozie:
+    version: 4.0.0
+  windowjobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+samplers:
+  callablequeue:
+    queue.size: 0.0
+    threads.active: 0.0
+  webservices:
+    callback: 0.0
+    requests: 0.0
+    sla: 0.0
+    v0admin: 0.0
+    v0job: 0.0
+    v0jobs: 0.0
+    v1admin: 0.0
+    v1job: 0.0
+    v1jobs: 0.0
+    v2admin: 0.0
+    v2job: 0.0
+    v2sla: 0.0
+    version: 0.0
+counters:
+  callablequeue:
+    executed: 1
+    queued: 1
+  commands:
+    purge.executions: 1
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: 3
+    BundleActionsGetWaitingOlderJPAExecutor: 4
+    BundleJobsGetForPurgeJPAExecutor: 1
+    BundleJobsGetNeedStartJPAExecutor: 4
+    BundleJobsGetPausedJPAExecutor: 4
+    BundleJobsGetRunningOrPendingJPAExecutor: 1
+    BundleJobsGetUnpausedJPAExecutor: 4
+    CoordActionsGetByLastModifiedTimeJPAExecutor: 3
+    CoordActionsGetForRecoveryJPAExecutor: 4
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: 4
+    CoordActionsRunningGetJPAExecutor: 4
+    CoordJobsGetForPurgeJPAExecutor: 1
+    CoordJobsGetPausedJPAExecutor: 4
+    CoordJobsGetPendingJPAExecutor: 1
+    CoordJobsGetUnpausedJPAExecutor: 4
+    CoordJobsToBeMaterializedJPAExecutor: 1
+    WorkflowActionsGetPendingJPAExecutor: 4
+    WorkflowActionsRunningGetJPAExecutor: 4
+    WorkflowJobsGetForPurgeJPAExecutor: 1
+timers:
+  callablequeue:
+    time.in.queue: ticks[1] totalAvg[11] ownAvg[11]
+  commands:
+    purge.call: ticks[1] totalAvg[776] ownAvg[776]
+    purge.execute: ticks[1] totalAvg[0] ownAvg[0]
+  db:
+    getWorkflowCountWithStatus: ticks[6] totalAvg[23] ownAvg[23]
+    getWorkflowCountWithStatusInLastNSecs: ticks[6] totalAvg[10] ownAvg[10]
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: ticks[3] totalAvg[8] ownAvg[8]
+    BundleActionsGetWaitingOlderJPAExecutor: ticks[4] totalAvg[9] ownAvg[9]
+    BundleJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[69] ownAvg[69]
+    BundleJobsGetNeedStartJPAExecutor: ticks[4] totalAvg[27] ownAvg[27]
+    BundleJobsGetPausedJPAExecutor: ticks[4] totalAvg[10] ownAvg[10]
+    BundleJobsGetRunningOrPendingJPAExecutor: ticks[1] totalAvg[101] ownAvg[101]
+    BundleJobsGetUnpausedJPAExecutor: ticks[4] totalAvg[172] ownAvg[172]
+    CoordActionsGetByLastModifiedTimeJPAExecutor: ticks[3] totalAvg[22] ownAvg[22]
+    CoordActionsGetForRecoveryJPAExecutor: ticks[4] totalAvg[56] ownAvg[56]
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: ticks[4] totalAvg[27] ownAvg[27]
+    CoordActionsRunningGetJPAExecutor: ticks[4] totalAvg[33] ownAvg[33]
+    CoordJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[127] ownAvg[127]
+    CoordJobsGetPausedJPAExecutor: ticks[4] totalAvg[8] ownAvg[8]
+    CoordJobsGetPendingJPAExecutor: ticks[1] totalAvg[669] ownAvg[669]
+    CoordJobsGetUnpausedJPAExecutor: ticks[4] totalAvg[17] ownAvg[17]
+    CoordJobsToBeMaterializedJPAExecutor: ticks[1] totalAvg[686] ownAvg[686]
+    WorkflowActionsGetPendingJPAExecutor: ticks[4] totalAvg[156] ownAvg[156]
+    WorkflowActionsRunningGetJPAExecutor: ticks[4] totalAvg[161] ownAvg[161]
+    WorkflowJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[564] ownAvg[564]
+
+2018-01-07 01:37:39,216  INFO oozieinstrumentation:539 - USER[-] GROUP[-] 
+variables:
+  configuration:
+    config.dir: /home/esak/Bdata/oozie/conf
+    config.file: /home/esak/Bdata/oozie/conf/oozie-site.xml
+  jobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+  jvm:
+    free.memory: 87401528
+    max.memory: 1037959168
+    total.memory: 127795200
+  locks:
+    locks: 0
+  logging:
+    config.file: oozie-log4j.properties
+    from.classpath: false
+    log.over.web-service: true
+    reload.interval: 10
+  oozie:
+    version: 4.0.0
+  windowjobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+samplers:
+  callablequeue:
+    queue.size: 0.0
+    threads.active: 0.0
+  webservices:
+    callback: 0.0
+    requests: 0.0
+    sla: 0.0
+    v0admin: 0.0
+    v0job: 0.0
+    v0jobs: 0.0
+    v1admin: 0.0
+    v1job: 0.0
+    v1jobs: 0.0
+    v2admin: 0.0
+    v2job: 0.0
+    v2sla: 0.0
+    version: 0.0
+counters:
+  callablequeue:
+    executed: 1
+    queued: 1
+  commands:
+    purge.executions: 1
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: 4
+    BundleActionsGetWaitingOlderJPAExecutor: 5
+    BundleJobsGetForPurgeJPAExecutor: 1
+    BundleJobsGetNeedStartJPAExecutor: 5
+    BundleJobsGetPausedJPAExecutor: 5
+    BundleJobsGetRunningOrPendingJPAExecutor: 1
+    BundleJobsGetUnpausedJPAExecutor: 5
+    CoordActionsGetByLastModifiedTimeJPAExecutor: 4
+    CoordActionsGetForRecoveryJPAExecutor: 5
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: 5
+    CoordActionsRunningGetJPAExecutor: 5
+    CoordJobsGetForPurgeJPAExecutor: 1
+    CoordJobsGetPausedJPAExecutor: 5
+    CoordJobsGetPendingJPAExecutor: 1
+    CoordJobsGetUnpausedJPAExecutor: 5
+    CoordJobsToBeMaterializedJPAExecutor: 1
+    WorkflowActionsGetPendingJPAExecutor: 5
+    WorkflowActionsRunningGetJPAExecutor: 5
+    WorkflowJobsGetForPurgeJPAExecutor: 1
+timers:
+  callablequeue:
+    time.in.queue: ticks[1] totalAvg[11] ownAvg[11]
+  commands:
+    purge.call: ticks[1] totalAvg[776] ownAvg[776]
+    purge.execute: ticks[1] totalAvg[0] ownAvg[0]
+  db:
+    getWorkflowCountWithStatus: ticks[6] totalAvg[23] ownAvg[23]
+    getWorkflowCountWithStatusInLastNSecs: ticks[6] totalAvg[10] ownAvg[10]
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: ticks[4] totalAvg[7] ownAvg[7]
+    BundleActionsGetWaitingOlderJPAExecutor: ticks[5] totalAvg[8] ownAvg[8]
+    BundleJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[69] ownAvg[69]
+    BundleJobsGetNeedStartJPAExecutor: ticks[5] totalAvg[23] ownAvg[23]
+    BundleJobsGetPausedJPAExecutor: ticks[5] totalAvg[10] ownAvg[10]
+    BundleJobsGetRunningOrPendingJPAExecutor: ticks[1] totalAvg[101] ownAvg[101]
+    BundleJobsGetUnpausedJPAExecutor: ticks[5] totalAvg[138] ownAvg[138]
+    CoordActionsGetByLastModifiedTimeJPAExecutor: ticks[4] totalAvg[17] ownAvg[17]
+    CoordActionsGetForRecoveryJPAExecutor: ticks[5] totalAvg[45] ownAvg[45]
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: ticks[5] totalAvg[22] ownAvg[22]
+    CoordActionsRunningGetJPAExecutor: ticks[5] totalAvg[27] ownAvg[27]
+    CoordJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[127] ownAvg[127]
+    CoordJobsGetPausedJPAExecutor: ticks[5] totalAvg[7] ownAvg[7]
+    CoordJobsGetPendingJPAExecutor: ticks[1] totalAvg[669] ownAvg[669]
+    CoordJobsGetUnpausedJPAExecutor: ticks[5] totalAvg[14] ownAvg[14]
+    CoordJobsToBeMaterializedJPAExecutor: ticks[1] totalAvg[686] ownAvg[686]
+    WorkflowActionsGetPendingJPAExecutor: ticks[5] totalAvg[125] ownAvg[125]
+    WorkflowActionsRunningGetJPAExecutor: ticks[5] totalAvg[129] ownAvg[129]
+    WorkflowJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[564] ownAvg[564]
+
+2018-01-07 01:38:39,249  INFO oozieinstrumentation:539 - USER[-] GROUP[-] 
+variables:
+  configuration:
+    config.dir: /home/esak/Bdata/oozie/conf
+    config.file: /home/esak/Bdata/oozie/conf/oozie-site.xml
+  jobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+  jvm:
+    free.memory: 83687432
+    max.memory: 1037959168
+    total.memory: 127795200
+  locks:
+    locks: 0
+  logging:
+    config.file: oozie-log4j.properties
+    from.classpath: false
+    log.over.web-service: true
+    reload.interval: 10
+  oozie:
+    version: 4.0.0
+  windowjobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+samplers:
+  callablequeue:
+    queue.size: 0.0
+    threads.active: 0.0
+  webservices:
+    callback: 0.0
+    requests: 0.0
+    sla: 0.0
+    v0admin: 0.0
+    v0job: 0.0
+    v0jobs: 0.0
+    v1admin: 0.0
+    v1job: 0.0
+    v1jobs: 0.0
+    v2admin: 0.0
+    v2job: 0.0
+    v2sla: 0.0
+    version: 0.0
+counters:
+  callablequeue:
+    executed: 1
+    queued: 1
+  commands:
+    purge.executions: 1
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: 5
+    BundleActionsGetWaitingOlderJPAExecutor: 6
+    BundleJobsGetForPurgeJPAExecutor: 1
+    BundleJobsGetNeedStartJPAExecutor: 6
+    BundleJobsGetPausedJPAExecutor: 6
+    BundleJobsGetRunningOrPendingJPAExecutor: 1
+    BundleJobsGetUnpausedJPAExecutor: 6
+    CoordActionsGetByLastModifiedTimeJPAExecutor: 5
+    CoordActionsGetForRecoveryJPAExecutor: 6
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: 6
+    CoordActionsRunningGetJPAExecutor: 6
+    CoordJobsGetForPurgeJPAExecutor: 1
+    CoordJobsGetPausedJPAExecutor: 6
+    CoordJobsGetPendingJPAExecutor: 1
+    CoordJobsGetUnpausedJPAExecutor: 6
+    CoordJobsToBeMaterializedJPAExecutor: 2
+    WorkflowActionsGetPendingJPAExecutor: 6
+    WorkflowActionsRunningGetJPAExecutor: 6
+    WorkflowJobsGetForPurgeJPAExecutor: 1
+timers:
+  callablequeue:
+    time.in.queue: ticks[1] totalAvg[11] ownAvg[11]
+  commands:
+    purge.call: ticks[1] totalAvg[776] ownAvg[776]
+    purge.execute: ticks[1] totalAvg[0] ownAvg[0]
+  db:
+    getWorkflowCountWithStatus: ticks[6] totalAvg[23] ownAvg[23]
+    getWorkflowCountWithStatusInLastNSecs: ticks[6] totalAvg[10] ownAvg[10]
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: ticks[5] totalAvg[7] ownAvg[7]
+    BundleActionsGetWaitingOlderJPAExecutor: ticks[6] totalAvg[9] ownAvg[9]
+    BundleJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[69] ownAvg[69]
+    BundleJobsGetNeedStartJPAExecutor: ticks[6] totalAvg[20] ownAvg[20]
+    BundleJobsGetPausedJPAExecutor: ticks[6] totalAvg[10] ownAvg[10]
+    BundleJobsGetRunningOrPendingJPAExecutor: ticks[1] totalAvg[101] ownAvg[101]
+    BundleJobsGetUnpausedJPAExecutor: ticks[6] totalAvg[115] ownAvg[115]
+    CoordActionsGetByLastModifiedTimeJPAExecutor: ticks[5] totalAvg[14] ownAvg[14]
+    CoordActionsGetForRecoveryJPAExecutor: ticks[6] totalAvg[40] ownAvg[40]
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: ticks[6] totalAvg[19] ownAvg[19]
+    CoordActionsRunningGetJPAExecutor: ticks[6] totalAvg[23] ownAvg[23]
+    CoordJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[127] ownAvg[127]
+    CoordJobsGetPausedJPAExecutor: ticks[6] totalAvg[7] ownAvg[7]
+    CoordJobsGetPendingJPAExecutor: ticks[1] totalAvg[669] ownAvg[669]
+    CoordJobsGetUnpausedJPAExecutor: ticks[6] totalAvg[12] ownAvg[12]
+    CoordJobsToBeMaterializedJPAExecutor: ticks[2] totalAvg[343] ownAvg[343]
+    WorkflowActionsGetPendingJPAExecutor: ticks[6] totalAvg[105] ownAvg[105]
+    WorkflowActionsRunningGetJPAExecutor: ticks[6] totalAvg[108] ownAvg[108]
+    WorkflowJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[564] ownAvg[564]
+
+2018-01-07 01:39:39,269  INFO oozieinstrumentation:539 - USER[-] GROUP[-] 
+variables:
+  configuration:
+    config.dir: /home/esak/Bdata/oozie/conf
+    config.file: /home/esak/Bdata/oozie/conf/oozie-site.xml
+  jobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+  jvm:
+    free.memory: 79351408
+    max.memory: 1037959168
+    total.memory: 127795200
+  locks:
+    locks: 0
+  logging:
+    config.file: oozie-log4j.properties
+    from.classpath: false
+    log.over.web-service: true
+    reload.interval: 10
+  oozie:
+    version: 4.0.0
+  windowjobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+samplers:
+  callablequeue:
+    queue.size: 0.0
+    threads.active: 0.0
+  webservices:
+    callback: 0.0
+    requests: 0.0
+    sla: 0.0
+    v0admin: 0.0
+    v0job: 0.0
+    v0jobs: 0.0
+    v1admin: 0.0
+    v1job: 0.0
+    v1jobs: 0.0
+    v2admin: 0.0
+    v2job: 0.0
+    v2sla: 0.0
+    version: 0.0
+counters:
+  callablequeue:
+    executed: 1
+    queued: 1
+  commands:
+    purge.executions: 1
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: 6
+    BundleActionsGetWaitingOlderJPAExecutor: 7
+    BundleJobsGetForPurgeJPAExecutor: 1
+    BundleJobsGetNeedStartJPAExecutor: 7
+    BundleJobsGetPausedJPAExecutor: 7
+    BundleJobsGetRunningOrPendingJPAExecutor: 1
+    BundleJobsGetUnpausedJPAExecutor: 7
+    CoordActionsGetByLastModifiedTimeJPAExecutor: 6
+    CoordActionsGetForRecoveryJPAExecutor: 7
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: 7
+    CoordActionsRunningGetJPAExecutor: 7
+    CoordJobsGetForPurgeJPAExecutor: 1
+    CoordJobsGetPausedJPAExecutor: 7
+    CoordJobsGetPendingJPAExecutor: 1
+    CoordJobsGetUnpausedJPAExecutor: 7
+    CoordJobsToBeMaterializedJPAExecutor: 2
+    WorkflowActionsGetPendingJPAExecutor: 7
+    WorkflowActionsRunningGetJPAExecutor: 7
+    WorkflowJobsGetForPurgeJPAExecutor: 1
+timers:
+  callablequeue:
+    time.in.queue: ticks[1] totalAvg[11] ownAvg[11]
+  commands:
+    purge.call: ticks[1] totalAvg[776] ownAvg[776]
+    purge.execute: ticks[1] totalAvg[0] ownAvg[0]
+  db:
+    getWorkflowCountWithStatus: ticks[12] totalAvg[14] ownAvg[14]
+    getWorkflowCountWithStatusInLastNSecs: ticks[12] totalAvg[10] ownAvg[10]
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: ticks[6] totalAvg[7] ownAvg[7]
+    BundleActionsGetWaitingOlderJPAExecutor: ticks[7] totalAvg[8] ownAvg[8]
+    BundleJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[69] ownAvg[69]
+    BundleJobsGetNeedStartJPAExecutor: ticks[7] totalAvg[17] ownAvg[17]
+    BundleJobsGetPausedJPAExecutor: ticks[7] totalAvg[9] ownAvg[9]
+    BundleJobsGetRunningOrPendingJPAExecutor: ticks[1] totalAvg[101] ownAvg[101]
+    BundleJobsGetUnpausedJPAExecutor: ticks[7] totalAvg[101] ownAvg[101]
+    CoordActionsGetByLastModifiedTimeJPAExecutor: ticks[6] totalAvg[12] ownAvg[12]
+    CoordActionsGetForRecoveryJPAExecutor: ticks[7] totalAvg[37] ownAvg[37]
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: ticks[7] totalAvg[18] ownAvg[18]
+    CoordActionsRunningGetJPAExecutor: ticks[7] totalAvg[20] ownAvg[20]
+    CoordJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[127] ownAvg[127]
+    CoordJobsGetPausedJPAExecutor: ticks[7] totalAvg[9] ownAvg[9]
+    CoordJobsGetPendingJPAExecutor: ticks[1] totalAvg[669] ownAvg[669]
+    CoordJobsGetUnpausedJPAExecutor: ticks[7] totalAvg[13] ownAvg[13]
+    CoordJobsToBeMaterializedJPAExecutor: ticks[2] totalAvg[343] ownAvg[343]
+    WorkflowActionsGetPendingJPAExecutor: ticks[7] totalAvg[91] ownAvg[91]
+    WorkflowActionsRunningGetJPAExecutor: ticks[7] totalAvg[93] ownAvg[93]
+    WorkflowJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[564] ownAvg[564]
+
+2018-01-07 01:40:39,301  INFO oozieinstrumentation:539 - USER[-] GROUP[-] 
+variables:
+  configuration:
+    config.dir: /home/esak/Bdata/oozie/conf
+    config.file: /home/esak/Bdata/oozie/conf/oozie-site.xml
+  jobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+  jvm:
+    free.memory: 75486128
+    max.memory: 1037959168
+    total.memory: 127795200
+  locks:
+    locks: 0
+  logging:
+    config.file: oozie-log4j.properties
+    from.classpath: false
+    log.over.web-service: true
+    reload.interval: 10
+  oozie:
+    version: 4.0.0
+  windowjobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+samplers:
+  callablequeue:
+    queue.size: 0.0
+    threads.active: 0.0
+  webservices:
+    callback: 0.0
+    requests: 0.0
+    sla: 0.0
+    v0admin: 0.0
+    v0job: 0.0
+    v0jobs: 0.0
+    v1admin: 0.0
+    v1job: 0.0
+    v1jobs: 0.0
+    v2admin: 0.0
+    v2job: 0.0
+    v2sla: 0.0
+    version: 0.0
+counters:
+  callablequeue:
+    executed: 1
+    queued: 1
+  commands:
+    purge.executions: 1
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: 7
+    BundleActionsGetWaitingOlderJPAExecutor: 8
+    BundleJobsGetForPurgeJPAExecutor: 1
+    BundleJobsGetNeedStartJPAExecutor: 8
+    BundleJobsGetPausedJPAExecutor: 8
+    BundleJobsGetRunningOrPendingJPAExecutor: 1
+    BundleJobsGetUnpausedJPAExecutor: 8
+    CoordActionsGetByLastModifiedTimeJPAExecutor: 7
+    CoordActionsGetForRecoveryJPAExecutor: 8
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: 8
+    CoordActionsRunningGetJPAExecutor: 8
+    CoordJobsGetForPurgeJPAExecutor: 1
+    CoordJobsGetPausedJPAExecutor: 8
+    CoordJobsGetPendingJPAExecutor: 1
+    CoordJobsGetUnpausedJPAExecutor: 8
+    CoordJobsToBeMaterializedJPAExecutor: 2
+    WorkflowActionsGetPendingJPAExecutor: 8
+    WorkflowActionsRunningGetJPAExecutor: 8
+    WorkflowJobsGetForPurgeJPAExecutor: 1
+timers:
+  callablequeue:
+    time.in.queue: ticks[1] totalAvg[11] ownAvg[11]
+  commands:
+    purge.call: ticks[1] totalAvg[776] ownAvg[776]
+    purge.execute: ticks[1] totalAvg[0] ownAvg[0]
+  db:
+    getWorkflowCountWithStatus: ticks[12] totalAvg[14] ownAvg[14]
+    getWorkflowCountWithStatusInLastNSecs: ticks[12] totalAvg[10] ownAvg[10]
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: ticks[7] totalAvg[7] ownAvg[7]
+    BundleActionsGetWaitingOlderJPAExecutor: ticks[8] totalAvg[7] ownAvg[7]
+    BundleJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[69] ownAvg[69]
+    BundleJobsGetNeedStartJPAExecutor: ticks[8] totalAvg[15] ownAvg[15]
+    BundleJobsGetPausedJPAExecutor: ticks[8] totalAvg[10] ownAvg[10]
+    BundleJobsGetRunningOrPendingJPAExecutor: ticks[1] totalAvg[101] ownAvg[101]
+    BundleJobsGetUnpausedJPAExecutor: ticks[8] totalAvg[89] ownAvg[89]
+    CoordActionsGetByLastModifiedTimeJPAExecutor: ticks[7] totalAvg[11] ownAvg[11]
+    CoordActionsGetForRecoveryJPAExecutor: ticks[8] totalAvg[34] ownAvg[34]
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: ticks[8] totalAvg[17] ownAvg[17]
+    CoordActionsRunningGetJPAExecutor: ticks[8] totalAvg[18] ownAvg[18]
+    CoordJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[127] ownAvg[127]
+    CoordJobsGetPausedJPAExecutor: ticks[8] totalAvg[8] ownAvg[8]
+    CoordJobsGetPendingJPAExecutor: ticks[1] totalAvg[669] ownAvg[669]
+    CoordJobsGetUnpausedJPAExecutor: ticks[8] totalAvg[15] ownAvg[15]
+    CoordJobsToBeMaterializedJPAExecutor: ticks[2] totalAvg[343] ownAvg[343]
+    WorkflowActionsGetPendingJPAExecutor: ticks[8] totalAvg[80] ownAvg[80]
+    WorkflowActionsRunningGetJPAExecutor: ticks[8] totalAvg[82] ownAvg[82]
+    WorkflowJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[564] ownAvg[564]
+
+2018-01-07 01:41:39,310  INFO oozieinstrumentation:539 - USER[-] GROUP[-] 
+variables:
+  configuration:
+    config.dir: /home/esak/Bdata/oozie/conf
+    config.file: /home/esak/Bdata/oozie/conf/oozie-site.xml
+  jobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+  jvm:
+    free.memory: 71760728
+    max.memory: 1037959168
+    total.memory: 127795200
+  locks:
+    locks: 0
+  logging:
+    config.file: oozie-log4j.properties
+    from.classpath: false
+    log.over.web-service: true
+    reload.interval: 10
+  oozie:
+    version: 4.0.0
+  windowjobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+samplers:
+  callablequeue:
+    queue.size: 0.0
+    threads.active: 0.0
+  webservices:
+    callback: 0.0
+    requests: 0.0
+    sla: 0.0
+    v0admin: 0.0
+    v0job: 0.0
+    v0jobs: 0.0
+    v1admin: 0.0
+    v1job: 0.0
+    v1jobs: 0.0
+    v2admin: 0.0
+    v2job: 0.0
+    v2sla: 0.0
+    version: 0.0
+counters:
+  callablequeue:
+    executed: 1
+    queued: 1
+  commands:
+    purge.executions: 1
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: 8
+    BundleActionsGetWaitingOlderJPAExecutor: 9
+    BundleJobsGetForPurgeJPAExecutor: 1
+    BundleJobsGetNeedStartJPAExecutor: 9
+    BundleJobsGetPausedJPAExecutor: 9
+    BundleJobsGetRunningOrPendingJPAExecutor: 1
+    BundleJobsGetUnpausedJPAExecutor: 9
+    CoordActionsGetByLastModifiedTimeJPAExecutor: 8
+    CoordActionsGetForRecoveryJPAExecutor: 9
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: 9
+    CoordActionsRunningGetJPAExecutor: 9
+    CoordJobsGetForPurgeJPAExecutor: 1
+    CoordJobsGetPausedJPAExecutor: 9
+    CoordJobsGetPendingJPAExecutor: 1
+    CoordJobsGetUnpausedJPAExecutor: 9
+    CoordJobsToBeMaterializedJPAExecutor: 2
+    WorkflowActionsGetPendingJPAExecutor: 9
+    WorkflowActionsRunningGetJPAExecutor: 9
+    WorkflowJobsGetForPurgeJPAExecutor: 1
+timers:
+  callablequeue:
+    time.in.queue: ticks[1] totalAvg[11] ownAvg[11]
+  commands:
+    purge.call: ticks[1] totalAvg[776] ownAvg[776]
+    purge.execute: ticks[1] totalAvg[0] ownAvg[0]
+  db:
+    getWorkflowCountWithStatus: ticks[12] totalAvg[14] ownAvg[14]
+    getWorkflowCountWithStatusInLastNSecs: ticks[12] totalAvg[10] ownAvg[10]
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: ticks[8] totalAvg[7] ownAvg[7]
+    BundleActionsGetWaitingOlderJPAExecutor: ticks[9] totalAvg[7] ownAvg[7]
+    BundleJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[69] ownAvg[69]
+    BundleJobsGetNeedStartJPAExecutor: ticks[9] totalAvg[14] ownAvg[14]
+    BundleJobsGetPausedJPAExecutor: ticks[9] totalAvg[9] ownAvg[9]
+    BundleJobsGetRunningOrPendingJPAExecutor: ticks[1] totalAvg[101] ownAvg[101]
+    BundleJobsGetUnpausedJPAExecutor: ticks[9] totalAvg[79] ownAvg[79]
+    CoordActionsGetByLastModifiedTimeJPAExecutor: ticks[8] totalAvg[10] ownAvg[10]
+    CoordActionsGetForRecoveryJPAExecutor: ticks[9] totalAvg[31] ownAvg[31]
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: ticks[9] totalAvg[15] ownAvg[15]
+    CoordActionsRunningGetJPAExecutor: ticks[9] totalAvg[17] ownAvg[17]
+    CoordJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[127] ownAvg[127]
+    CoordJobsGetPausedJPAExecutor: ticks[9] totalAvg[7] ownAvg[7]
+    CoordJobsGetPendingJPAExecutor: ticks[1] totalAvg[669] ownAvg[669]
+    CoordJobsGetUnpausedJPAExecutor: ticks[9] totalAvg[13] ownAvg[13]
+    CoordJobsToBeMaterializedJPAExecutor: ticks[2] totalAvg[343] ownAvg[343]
+    WorkflowActionsGetPendingJPAExecutor: ticks[9] totalAvg[71] ownAvg[71]
+    WorkflowActionsRunningGetJPAExecutor: ticks[9] totalAvg[74] ownAvg[74]
+    WorkflowJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[564] ownAvg[564]
+
+2018-01-07 01:42:39,320  INFO oozieinstrumentation:539 - USER[-] GROUP[-] 
+variables:
+  configuration:
+    config.dir: /home/esak/Bdata/oozie/conf
+    config.file: /home/esak/Bdata/oozie/conf/oozie-site.xml
+  jobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+  jvm:
+    free.memory: 68001648
+    max.memory: 1037959168
+    total.memory: 127795200
+  locks:
+    locks: 0
+  logging:
+    config.file: oozie-log4j.properties
+    from.classpath: false
+    log.over.web-service: true
+    reload.interval: 10
+  oozie:
+    version: 4.0.0
+  windowjobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+samplers:
+  callablequeue:
+    queue.size: 0.0
+    threads.active: 0.0
+  webservices:
+    callback: 0.0
+    requests: 0.0
+    sla: 0.0
+    v0admin: 0.0
+    v0job: 0.0
+    v0jobs: 0.0
+    v1admin: 0.0
+    v1job: 0.0
+    v1jobs: 0.0
+    v2admin: 0.0
+    v2job: 0.0
+    v2sla: 0.0
+    version: 0.0
+counters:
+  callablequeue:
+    executed: 1
+    queued: 1
+  commands:
+    purge.executions: 1
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: 9
+    BundleActionsGetWaitingOlderJPAExecutor: 10
+    BundleJobsGetForPurgeJPAExecutor: 1
+    BundleJobsGetNeedStartJPAExecutor: 10
+    BundleJobsGetPausedJPAExecutor: 10
+    BundleJobsGetRunningOrPendingJPAExecutor: 1
+    BundleJobsGetUnpausedJPAExecutor: 10
+    CoordActionsGetByLastModifiedTimeJPAExecutor: 9
+    CoordActionsGetForRecoveryJPAExecutor: 10
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: 10
+    CoordActionsRunningGetJPAExecutor: 10
+    CoordJobsGetForPurgeJPAExecutor: 1
+    CoordJobsGetPausedJPAExecutor: 10
+    CoordJobsGetPendingJPAExecutor: 1
+    CoordJobsGetUnpausedJPAExecutor: 10
+    CoordJobsToBeMaterializedJPAExecutor: 2
+    WorkflowActionsGetPendingJPAExecutor: 10
+    WorkflowActionsRunningGetJPAExecutor: 10
+    WorkflowJobsGetForPurgeJPAExecutor: 1
+timers:
+  callablequeue:
+    time.in.queue: ticks[1] totalAvg[11] ownAvg[11]
+  commands:
+    purge.call: ticks[1] totalAvg[776] ownAvg[776]
+    purge.execute: ticks[1] totalAvg[0] ownAvg[0]
+  db:
+    getWorkflowCountWithStatus: ticks[12] totalAvg[14] ownAvg[14]
+    getWorkflowCountWithStatusInLastNSecs: ticks[12] totalAvg[10] ownAvg[10]
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: ticks[9] totalAvg[6] ownAvg[6]
+    BundleActionsGetWaitingOlderJPAExecutor: ticks[10] totalAvg[7] ownAvg[7]
+    BundleJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[69] ownAvg[69]
+    BundleJobsGetNeedStartJPAExecutor: ticks[10] totalAvg[13] ownAvg[13]
+    BundleJobsGetPausedJPAExecutor: ticks[10] totalAvg[9] ownAvg[9]
+    BundleJobsGetRunningOrPendingJPAExecutor: ticks[1] totalAvg[101] ownAvg[101]
+    BundleJobsGetUnpausedJPAExecutor: ticks[10] totalAvg[72] ownAvg[72]
+    CoordActionsGetByLastModifiedTimeJPAExecutor: ticks[9] totalAvg[10] ownAvg[10]
+    CoordActionsGetForRecoveryJPAExecutor: ticks[10] totalAvg[30] ownAvg[30]
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: ticks[10] totalAvg[14] ownAvg[14]
+    CoordActionsRunningGetJPAExecutor: ticks[10] totalAvg[15] ownAvg[15]
+    CoordJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[127] ownAvg[127]
+    CoordJobsGetPausedJPAExecutor: ticks[10] totalAvg[7] ownAvg[7]
+    CoordJobsGetPendingJPAExecutor: ticks[1] totalAvg[669] ownAvg[669]
+    CoordJobsGetUnpausedJPAExecutor: ticks[10] totalAvg[12] ownAvg[12]
+    CoordJobsToBeMaterializedJPAExecutor: ticks[2] totalAvg[343] ownAvg[343]
+    WorkflowActionsGetPendingJPAExecutor: ticks[10] totalAvg[64] ownAvg[64]
+    WorkflowActionsRunningGetJPAExecutor: ticks[10] totalAvg[67] ownAvg[67]
+    WorkflowJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[564] ownAvg[564]
+
+2018-01-07 01:43:39,339  INFO oozieinstrumentation:539 - USER[-] GROUP[-] 
+variables:
+  configuration:
+    config.dir: /home/esak/Bdata/oozie/conf
+    config.file: /home/esak/Bdata/oozie/conf/oozie-site.xml
+  jobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+  jvm:
+    free.memory: 64188440
+    max.memory: 1037959168
+    total.memory: 127795200
+  locks:
+    locks: 0
+  logging:
+    config.file: oozie-log4j.properties
+    from.classpath: false
+    log.over.web-service: true
+    reload.interval: 10
+  oozie:
+    version: 4.0.0
+  windowjobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+samplers:
+  callablequeue:
+    queue.size: 0.0
+    threads.active: 0.0
+  webservices:
+    callback: 0.0
+    requests: 0.0
+    sla: 0.0
+    v0admin: 0.0
+    v0job: 0.0
+    v0jobs: 0.0
+    v1admin: 0.0
+    v1job: 0.0
+    v1jobs: 0.0
+    v2admin: 0.0
+    v2job: 0.0
+    v2sla: 0.0
+    version: 0.0
+counters:
+  callablequeue:
+    executed: 1
+    queued: 1
+  commands:
+    purge.executions: 1
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: 10
+    BundleActionsGetWaitingOlderJPAExecutor: 11
+    BundleJobsGetForPurgeJPAExecutor: 1
+    BundleJobsGetNeedStartJPAExecutor: 11
+    BundleJobsGetPausedJPAExecutor: 11
+    BundleJobsGetRunningOrPendingJPAExecutor: 1
+    BundleJobsGetUnpausedJPAExecutor: 11
+    CoordActionsGetByLastModifiedTimeJPAExecutor: 10
+    CoordActionsGetForRecoveryJPAExecutor: 11
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: 11
+    CoordActionsRunningGetJPAExecutor: 11
+    CoordJobsGetForPurgeJPAExecutor: 1
+    CoordJobsGetPausedJPAExecutor: 11
+    CoordJobsGetPendingJPAExecutor: 1
+    CoordJobsGetUnpausedJPAExecutor: 11
+    CoordJobsToBeMaterializedJPAExecutor: 3
+    WorkflowActionsGetPendingJPAExecutor: 11
+    WorkflowActionsRunningGetJPAExecutor: 11
+    WorkflowJobsGetForPurgeJPAExecutor: 1
+timers:
+  callablequeue:
+    time.in.queue: ticks[1] totalAvg[11] ownAvg[11]
+  commands:
+    purge.call: ticks[1] totalAvg[776] ownAvg[776]
+    purge.execute: ticks[1] totalAvg[0] ownAvg[0]
+  db:
+    getWorkflowCountWithStatus: ticks[12] totalAvg[14] ownAvg[14]
+    getWorkflowCountWithStatusInLastNSecs: ticks[12] totalAvg[10] ownAvg[10]
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: ticks[10] totalAvg[7] ownAvg[7]
+    BundleActionsGetWaitingOlderJPAExecutor: ticks[11] totalAvg[7] ownAvg[7]
+    BundleJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[69] ownAvg[69]
+    BundleJobsGetNeedStartJPAExecutor: ticks[11] totalAvg[13] ownAvg[13]
+    BundleJobsGetPausedJPAExecutor: ticks[11] totalAvg[8] ownAvg[8]
+    BundleJobsGetRunningOrPendingJPAExecutor: ticks[1] totalAvg[101] ownAvg[101]
+    BundleJobsGetUnpausedJPAExecutor: ticks[11] totalAvg[66] ownAvg[66]
+    CoordActionsGetByLastModifiedTimeJPAExecutor: ticks[10] totalAvg[9] ownAvg[9]
+    CoordActionsGetForRecoveryJPAExecutor: ticks[11] totalAvg[28] ownAvg[28]
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: ticks[11] totalAvg[15] ownAvg[15]
+    CoordActionsRunningGetJPAExecutor: ticks[11] totalAvg[14] ownAvg[14]
+    CoordJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[127] ownAvg[127]
+    CoordJobsGetPausedJPAExecutor: ticks[11] totalAvg[7] ownAvg[7]
+    CoordJobsGetPendingJPAExecutor: ticks[1] totalAvg[669] ownAvg[669]
+    CoordJobsGetUnpausedJPAExecutor: ticks[11] totalAvg[11] ownAvg[11]
+    CoordJobsToBeMaterializedJPAExecutor: ticks[3] totalAvg[229] ownAvg[229]
+    WorkflowActionsGetPendingJPAExecutor: ticks[11] totalAvg[58] ownAvg[58]
+    WorkflowActionsRunningGetJPAExecutor: ticks[11] totalAvg[61] ownAvg[61]
+    WorkflowJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[564] ownAvg[564]
+
+2018-01-07 01:44:39,346  INFO oozieinstrumentation:539 - USER[-] GROUP[-] 
+variables:
+  configuration:
+    config.dir: /home/esak/Bdata/oozie/conf
+    config.file: /home/esak/Bdata/oozie/conf/oozie-site.xml
+  jobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+  jvm:
+    free.memory: 97518032
+    max.memory: 1037959168
+    total.memory: 127795200
+  locks:
+    locks: 0
+  logging:
+    config.file: oozie-log4j.properties
+    from.classpath: false
+    log.over.web-service: true
+    reload.interval: 10
+  oozie:
+    version: 4.0.0
+  windowjobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+samplers:
+  callablequeue:
+    queue.size: 0.0
+    threads.active: 0.0
+  webservices:
+    callback: 0.0
+    requests: 0.0
+    sla: 0.0
+    v0admin: 0.0
+    v0job: 0.0
+    v0jobs: 0.0
+    v1admin: 0.0
+    v1job: 0.0
+    v1jobs: 0.0
+    v2admin: 0.0
+    v2job: 0.0
+    v2sla: 0.0
+    version: 0.0
+counters:
+  callablequeue:
+    executed: 1
+    queued: 1
+  commands:
+    purge.executions: 1
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: 11
+    BundleActionsGetWaitingOlderJPAExecutor: 12
+    BundleJobsGetForPurgeJPAExecutor: 1
+    BundleJobsGetNeedStartJPAExecutor: 12
+    BundleJobsGetPausedJPAExecutor: 12
+    BundleJobsGetRunningOrPendingJPAExecutor: 1
+    BundleJobsGetUnpausedJPAExecutor: 12
+    CoordActionsGetByLastModifiedTimeJPAExecutor: 11
+    CoordActionsGetForRecoveryJPAExecutor: 12
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: 12
+    CoordActionsRunningGetJPAExecutor: 12
+    CoordJobsGetForPurgeJPAExecutor: 1
+    CoordJobsGetPausedJPAExecutor: 12
+    CoordJobsGetPendingJPAExecutor: 1
+    CoordJobsGetUnpausedJPAExecutor: 12
+    CoordJobsToBeMaterializedJPAExecutor: 3
+    WorkflowActionsGetPendingJPAExecutor: 12
+    WorkflowActionsRunningGetJPAExecutor: 12
+    WorkflowJobsGetForPurgeJPAExecutor: 1
+timers:
+  callablequeue:
+    time.in.queue: ticks[1] totalAvg[11] ownAvg[11]
+  commands:
+    purge.call: ticks[1] totalAvg[776] ownAvg[776]
+    purge.execute: ticks[1] totalAvg[0] ownAvg[0]
+  db:
+    getWorkflowCountWithStatus: ticks[18] totalAvg[11] ownAvg[11]
+    getWorkflowCountWithStatusInLastNSecs: ticks[18] totalAvg[8] ownAvg[8]
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: ticks[11] totalAvg[6] ownAvg[6]
+    BundleActionsGetWaitingOlderJPAExecutor: ticks[12] totalAvg[7] ownAvg[7]
+    BundleJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[69] ownAvg[69]
+    BundleJobsGetNeedStartJPAExecutor: ticks[12] totalAvg[12] ownAvg[12]
+    BundleJobsGetPausedJPAExecutor: ticks[12] totalAvg[9] ownAvg[9]
+    BundleJobsGetRunningOrPendingJPAExecutor: ticks[1] totalAvg[101] ownAvg[101]
+    BundleJobsGetUnpausedJPAExecutor: ticks[12] totalAvg[60] ownAvg[60]
+    CoordActionsGetByLastModifiedTimeJPAExecutor: ticks[11] totalAvg[8] ownAvg[8]
+    CoordActionsGetForRecoveryJPAExecutor: ticks[12] totalAvg[27] ownAvg[27]
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: ticks[12] totalAvg[14] ownAvg[14]
+    CoordActionsRunningGetJPAExecutor: ticks[12] totalAvg[13] ownAvg[13]
+    CoordJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[127] ownAvg[127]
+    CoordJobsGetPausedJPAExecutor: ticks[12] totalAvg[7] ownAvg[7]
+    CoordJobsGetPendingJPAExecutor: ticks[1] totalAvg[669] ownAvg[669]
+    CoordJobsGetUnpausedJPAExecutor: ticks[12] totalAvg[10] ownAvg[10]
+    CoordJobsToBeMaterializedJPAExecutor: ticks[3] totalAvg[229] ownAvg[229]
+    WorkflowActionsGetPendingJPAExecutor: ticks[12] totalAvg[54] ownAvg[54]
+    WorkflowActionsRunningGetJPAExecutor: ticks[12] totalAvg[56] ownAvg[56]
+    WorkflowJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[564] ownAvg[564]
+
+2018-01-07 01:45:39,350  INFO oozieinstrumentation:539 - USER[-] GROUP[-] 
+variables:
+  configuration:
+    config.dir: /home/esak/Bdata/oozie/conf
+    config.file: /home/esak/Bdata/oozie/conf/oozie-site.xml
+  jobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+  jvm:
+    free.memory: 93688792
+    max.memory: 1037959168
+    total.memory: 127795200
+  locks:
+    locks: 0
+  logging:
+    config.file: oozie-log4j.properties
+    from.classpath: false
+    log.over.web-service: true
+    reload.interval: 10
+  oozie:
+    version: 4.0.0
+  windowjobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+samplers:
+  callablequeue:
+    queue.size: 0.0
+    threads.active: 0.0
+  webservices:
+    callback: 0.0
+    requests: 0.0
+    sla: 0.0
+    v0admin: 0.0
+    v0job: 0.0
+    v0jobs: 0.0
+    v1admin: 0.0
+    v1job: 0.0
+    v1jobs: 0.0
+    v2admin: 0.0
+    v2job: 0.0
+    v2sla: 0.0
+    version: 0.0
+counters:
+  callablequeue:
+    executed: 1
+    queued: 1
+  commands:
+    purge.executions: 1
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: 12
+    BundleActionsGetWaitingOlderJPAExecutor: 13
+    BundleJobsGetForPurgeJPAExecutor: 1
+    BundleJobsGetNeedStartJPAExecutor: 13
+    BundleJobsGetPausedJPAExecutor: 13
+    BundleJobsGetRunningOrPendingJPAExecutor: 1
+    BundleJobsGetUnpausedJPAExecutor: 13
+    CoordActionsGetByLastModifiedTimeJPAExecutor: 12
+    CoordActionsGetForRecoveryJPAExecutor: 13
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: 13
+    CoordActionsRunningGetJPAExecutor: 13
+    CoordJobsGetForPurgeJPAExecutor: 1
+    CoordJobsGetPausedJPAExecutor: 13
+    CoordJobsGetPendingJPAExecutor: 1
+    CoordJobsGetUnpausedJPAExecutor: 13
+    CoordJobsToBeMaterializedJPAExecutor: 3
+    WorkflowActionsGetPendingJPAExecutor: 13
+    WorkflowActionsRunningGetJPAExecutor: 13
+    WorkflowJobsGetForPurgeJPAExecutor: 1
+timers:
+  callablequeue:
+    time.in.queue: ticks[1] totalAvg[11] ownAvg[11]
+  commands:
+    purge.call: ticks[1] totalAvg[776] ownAvg[776]
+    purge.execute: ticks[1] totalAvg[0] ownAvg[0]
+  db:
+    getWorkflowCountWithStatus: ticks[18] totalAvg[11] ownAvg[11]
+    getWorkflowCountWithStatusInLastNSecs: ticks[18] totalAvg[8] ownAvg[8]
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: ticks[12] totalAvg[6] ownAvg[6]
+    BundleActionsGetWaitingOlderJPAExecutor: ticks[13] totalAvg[6] ownAvg[6]
+    BundleJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[69] ownAvg[69]
+    BundleJobsGetNeedStartJPAExecutor: ticks[13] totalAvg[12] ownAvg[12]
+    BundleJobsGetPausedJPAExecutor: ticks[13] totalAvg[9] ownAvg[9]
+    BundleJobsGetRunningOrPendingJPAExecutor: ticks[1] totalAvg[101] ownAvg[101]
+    BundleJobsGetUnpausedJPAExecutor: ticks[13] totalAvg[56] ownAvg[56]
+    CoordActionsGetByLastModifiedTimeJPAExecutor: ticks[12] totalAvg[8] ownAvg[8]
+    CoordActionsGetForRecoveryJPAExecutor: ticks[13] totalAvg[27] ownAvg[27]
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: ticks[13] totalAvg[14] ownAvg[14]
+    CoordActionsRunningGetJPAExecutor: ticks[13] totalAvg[12] ownAvg[12]
+    CoordJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[127] ownAvg[127]
+    CoordJobsGetPausedJPAExecutor: ticks[13] totalAvg[7] ownAvg[7]
+    CoordJobsGetPendingJPAExecutor: ticks[1] totalAvg[669] ownAvg[669]
+    CoordJobsGetUnpausedJPAExecutor: ticks[13] totalAvg[10] ownAvg[10]
+    CoordJobsToBeMaterializedJPAExecutor: ticks[3] totalAvg[229] ownAvg[229]
+    WorkflowActionsGetPendingJPAExecutor: ticks[13] totalAvg[50] ownAvg[50]
+    WorkflowActionsRunningGetJPAExecutor: ticks[13] totalAvg[52] ownAvg[52]
+    WorkflowJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[564] ownAvg[564]
+
+2018-01-07 01:46:39,354  INFO oozieinstrumentation:539 - USER[-] GROUP[-] 
+variables:
+  configuration:
+    config.dir: /home/esak/Bdata/oozie/conf
+    config.file: /home/esak/Bdata/oozie/conf/oozie-site.xml
+  jobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+  jvm:
+    free.memory: 90009768
+    max.memory: 1037959168
+    total.memory: 127795200
+  locks:
+    locks: 0
+  logging:
+    config.file: oozie-log4j.properties
+    from.classpath: false
+    log.over.web-service: true
+    reload.interval: 10
+  oozie:
+    version: 4.0.0
+  windowjobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+samplers:
+  callablequeue:
+    queue.size: 0.0
+    threads.active: 0.0
+  webservices:
+    callback: 0.0
+    requests: 0.0
+    sla: 0.0
+    v0admin: 0.0
+    v0job: 0.0
+    v0jobs: 0.0
+    v1admin: 0.0
+    v1job: 0.0
+    v1jobs: 0.0
+    v2admin: 0.0
+    v2job: 0.0
+    v2sla: 0.0
+    version: 0.0
+counters:
+  callablequeue:
+    executed: 1
+    queued: 1
+  commands:
+    purge.executions: 1
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: 13
+    BundleActionsGetWaitingOlderJPAExecutor: 14
+    BundleJobsGetForPurgeJPAExecutor: 1
+    BundleJobsGetNeedStartJPAExecutor: 14
+    BundleJobsGetPausedJPAExecutor: 14
+    BundleJobsGetRunningOrPendingJPAExecutor: 1
+    BundleJobsGetUnpausedJPAExecutor: 14
+    CoordActionsGetByLastModifiedTimeJPAExecutor: 13
+    CoordActionsGetForRecoveryJPAExecutor: 14
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: 14
+    CoordActionsRunningGetJPAExecutor: 14
+    CoordJobsGetForPurgeJPAExecutor: 1
+    CoordJobsGetPausedJPAExecutor: 14
+    CoordJobsGetPendingJPAExecutor: 1
+    CoordJobsGetUnpausedJPAExecutor: 14
+    CoordJobsToBeMaterializedJPAExecutor: 3
+    WorkflowActionsGetPendingJPAExecutor: 14
+    WorkflowActionsRunningGetJPAExecutor: 14
+    WorkflowJobsGetForPurgeJPAExecutor: 1
+timers:
+  callablequeue:
+    time.in.queue: ticks[1] totalAvg[11] ownAvg[11]
+  commands:
+    purge.call: ticks[1] totalAvg[776] ownAvg[776]
+    purge.execute: ticks[1] totalAvg[0] ownAvg[0]
+  db:
+    getWorkflowCountWithStatus: ticks[18] totalAvg[11] ownAvg[11]
+    getWorkflowCountWithStatusInLastNSecs: ticks[18] totalAvg[8] ownAvg[8]
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: ticks[13] totalAvg[6] ownAvg[6]
+    BundleActionsGetWaitingOlderJPAExecutor: ticks[14] totalAvg[6] ownAvg[6]
+    BundleJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[69] ownAvg[69]
+    BundleJobsGetNeedStartJPAExecutor: ticks[14] totalAvg[11] ownAvg[11]
+    BundleJobsGetPausedJPAExecutor: ticks[14] totalAvg[8] ownAvg[8]
+    BundleJobsGetRunningOrPendingJPAExecutor: ticks[1] totalAvg[101] ownAvg[101]
+    BundleJobsGetUnpausedJPAExecutor: ticks[14] totalAvg[52] ownAvg[52]
+    CoordActionsGetByLastModifiedTimeJPAExecutor: ticks[13] totalAvg[8] ownAvg[8]
+    CoordActionsGetForRecoveryJPAExecutor: ticks[14] totalAvg[25] ownAvg[25]
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: ticks[14] totalAvg[13] ownAvg[13]
+    CoordActionsRunningGetJPAExecutor: ticks[14] totalAvg[12] ownAvg[12]
+    CoordJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[127] ownAvg[127]
+    CoordJobsGetPausedJPAExecutor: ticks[14] totalAvg[7] ownAvg[7]
+    CoordJobsGetPendingJPAExecutor: ticks[1] totalAvg[669] ownAvg[669]
+    CoordJobsGetUnpausedJPAExecutor: ticks[14] totalAvg[9] ownAvg[9]
+    CoordJobsToBeMaterializedJPAExecutor: ticks[3] totalAvg[229] ownAvg[229]
+    WorkflowActionsGetPendingJPAExecutor: ticks[14] totalAvg[47] ownAvg[47]
+    WorkflowActionsRunningGetJPAExecutor: ticks[14] totalAvg[49] ownAvg[49]
+    WorkflowJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[564] ownAvg[564]
+
+2018-01-07 01:47:39,355  INFO oozieinstrumentation:539 - USER[-] GROUP[-] 
+variables:
+  configuration:
+    config.dir: /home/esak/Bdata/oozie/conf
+    config.file: /home/esak/Bdata/oozie/conf/oozie-site.xml
+  jobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+  jvm:
+    free.memory: 86188160
+    max.memory: 1037959168
+    total.memory: 127795200
+  locks:
+    locks: 0
+  logging:
+    config.file: oozie-log4j.properties
+    from.classpath: false
+    log.over.web-service: true
+    reload.interval: 10
+  oozie:
+    version: 4.0.0
+  windowjobstatus:
+    FAILED: 0
+    KILLED: 0
+    PREP: 0
+    RUNNING: 0
+    SUCCEEDED: 0
+    SUSPENDED: 0
+samplers:
+  callablequeue:
+    queue.size: 0.0
+    threads.active: 0.0
+  webservices:
+    callback: 0.0
+    requests: 0.0
+    sla: 0.0
+    v0admin: 0.0
+    v0job: 0.0
+    v0jobs: 0.0
+    v1admin: 0.0
+    v1job: 0.0
+    v1jobs: 0.0
+    v2admin: 0.0
+    v2job: 0.0
+    v2sla: 0.0
+    version: 0.0
+counters:
+  callablequeue:
+    executed: 1
+    queued: 1
+  commands:
+    purge.executions: 1
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: 14
+    BundleActionsGetWaitingOlderJPAExecutor: 15
+    BundleJobsGetForPurgeJPAExecutor: 1
+    BundleJobsGetNeedStartJPAExecutor: 15
+    BundleJobsGetPausedJPAExecutor: 15
+    BundleJobsGetRunningOrPendingJPAExecutor: 1
+    BundleJobsGetUnpausedJPAExecutor: 15
+    CoordActionsGetByLastModifiedTimeJPAExecutor: 14
+    CoordActionsGetForRecoveryJPAExecutor: 15
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: 15
+    CoordActionsRunningGetJPAExecutor: 15
+    CoordJobsGetForPurgeJPAExecutor: 1
+    CoordJobsGetPausedJPAExecutor: 15
+    CoordJobsGetPendingJPAExecutor: 1
+    CoordJobsGetUnpausedJPAExecutor: 15
+    CoordJobsToBeMaterializedJPAExecutor: 3
+    WorkflowActionsGetPendingJPAExecutor: 15
+    WorkflowActionsRunningGetJPAExecutor: 15
+    WorkflowJobsGetForPurgeJPAExecutor: 1
+timers:
+  callablequeue:
+    time.in.queue: ticks[1] totalAvg[11] ownAvg[11]
+  commands:
+    purge.call: ticks[1] totalAvg[776] ownAvg[776]
+    purge.execute: ticks[1] totalAvg[0] ownAvg[0]
+  db:
+    getWorkflowCountWithStatus: ticks[18] totalAvg[11] ownAvg[11]
+    getWorkflowCountWithStatusInLastNSecs: ticks[18] totalAvg[8] ownAvg[8]
+  jpa:
+    BundleActionsGetByLastModifiedTimeJPAExecutor: ticks[14] totalAvg[6] ownAvg[6]
+    BundleActionsGetWaitingOlderJPAExecutor: ticks[15] totalAvg[7] ownAvg[7]
+    BundleJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[69] ownAvg[69]
+    BundleJobsGetNeedStartJPAExecutor: ticks[15] totalAvg[11] ownAvg[11]
+    BundleJobsGetPausedJPAExecutor: ticks[15] totalAvg[8] ownAvg[8]
+    BundleJobsGetRunningOrPendingJPAExecutor: ticks[1] totalAvg[101] ownAvg[101]
+    BundleJobsGetUnpausedJPAExecutor: ticks[15] totalAvg[49] ownAvg[49]
+    CoordActionsGetByLastModifiedTimeJPAExecutor: ticks[14] totalAvg[9] ownAvg[9]
+    CoordActionsGetForRecoveryJPAExecutor: ticks[15] totalAvg[24] ownAvg[24]
+    CoordActionsGetReadyGroupbyJobIDJPAExecutor: ticks[15] totalAvg[12] ownAvg[12]
+    CoordActionsRunningGetJPAExecutor: ticks[15] totalAvg[11] ownAvg[11]
+    CoordJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[127] ownAvg[127]
+    CoordJobsGetPausedJPAExecutor: ticks[15] totalAvg[6] ownAvg[6]
+    CoordJobsGetPendingJPAExecutor: ticks[1] totalAvg[669] ownAvg[669]
+    CoordJobsGetUnpausedJPAExecutor: ticks[15] totalAvg[9] ownAvg[9]
+    CoordJobsToBeMaterializedJPAExecutor: ticks[3] totalAvg[229] ownAvg[229]
+    WorkflowActionsGetPendingJPAExecutor: ticks[15] totalAvg[44] ownAvg[44]
+    WorkflowActionsRunningGetJPAExecutor: ticks[15] totalAvg[46] ownAvg[46]
+    WorkflowJobsGetForPurgeJPAExecutor: ticks[1] totalAvg[564] ownAvg[564]
+

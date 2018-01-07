@@ -1,0 +1,35 @@
+
+Start the Docker
+	systemctl start docker
+
+Check the Docker Version
+	docker --version
+
+Verify Docker Installatio
+	docker run hello-world
+
+Installl Docker Compose Binaries
+	curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+
+chmod +x /usr/local/bin/docker-compose
+
+docker-compose --version
+
+------------------------------------------------------
+INstall Landoop
+
+docker run --rm --net=host landoop/fast-data-dev
+
+----------------------------------------------
+docker run --rm -it \
+           -p 2181:2181 -p 3030:3030 -p 8081:8081 \
+           -p 8082:8082 -p 8083:8083 -p 9092:9092 \
+           -e ADV_HOST=127.0.0.1 \
+           landoop/fast-data-dev
+
+
+# Kafka command lines tools
+docker run --rm -it --net=host landoop/fast-data-dev bash
+
+docker run landoop/fast-data-dev
+

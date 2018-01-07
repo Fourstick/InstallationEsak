@@ -1,0 +1,84 @@
+##########################
+
+wget https://archive.apache.org/dist/hadoop/core/hadoop-2.9.0/hadoop-2.9.0.tar.gz   
+
+wget https://archive.apache.org/dist/hive/hive-2.2.0/apache-hive-2.2.0-bin.tar.gz 
+
+wget https://www.apache.org/dist/hbase/stable/hbase-1.2.6-bin.tar.gz
+
+wget http://www-us.apache.org/dist/sqoop/1.4.6/sqoop-1.4.6.tar.gz
+
+
+
+Environment Variables 
+
+export JAVA_HOME=/home/esak/java/jdk1.8.0_151/bin
+
+we have to Update the Oracle Java 8 in the Place of Open JDK 8 , to Do that Please Follow the steps 
+
+Now you need to update your system to use that Java instead of OpenJDK, and you can do this by using alternative & update-alternative commands. Here is how I am doing it:
+
+First we need to add the new path for java - javac - jdb - javaws - and any other java component you want by doing the alternative command. Here is the exmaple:
+ Fomrat:  sudo alternatives --install [The current path] java [The new path] 1
+ Example: sudo alternatives --install /usr/bin/java java /home/esak/java/jdk1.8.0_151/bin 1 
+
+Now you can set the new path that we just added by using update-alternative command. Once you again you need to this for all other java component you just added the path. Here is the example:
+
+	sudo update-alternatives --config java
+
+This command gives you the list of available paths, and you should be able to see the path that you just added in previous command, so you can pick the number next to the path.
+
+This should do it, and you can test this by running the command:
+
+ javac --version 
+The output should be the Oracle java then you are all done.
+
+P.S To update your java just download the new rpm and install it again. This should automatically update your previous setup.
+
+Hope that helps. 
+
+_____________________________________________________________________________________
+
+GET JAVA FRom the Oracle 
+
+wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u151-b12/e758a0de34e24606bca991d704f6dcbf/jdk-8u151-linux-x64.tar.gz"
+
+UNTAR IT and Naviagte to the Folder 
+
+cd /opt/jdk1.8.0_151/
+
+Change the Old Java Version to the New Version 
+
+alternatives --install /usr/bin/java java /home/esak/java/jdk1.8.0_151/bin/java 2
+alternatives --config java
+
+
+alternatives --install /usr/bin/jar jar /home/esak/java/jdk1.8.0_151/bin/jar 2
+alternatives --install /usr/bin/javac javac /home/esak/java/jdk1.8.0_151/bin/javac 2
+alternatives --set jar /home/esak/java/jdk1.8.0_151/bin/jar
+alternatives --set javac /home/esak/java/jdk1.8.0_151/bin/javac
+
+To Check the Java Version 
+java -version
+
+Export this Variable to the Environment 
+
+cd /root/.bahrc
+
+export JAVA_HOME=/home/esak/java/jdk1.8.0_151
+export JRE_HOME=/home/esak/java/jdk1.8.0_151/jre
+export PATH=$PATH:/home/esak/java/jdk1.8.0_151/bin:/home/esak/java/jdk1.8.0_151/jre/bin
+
+----------------------------------------------------------------------------------------------------------------------------
+
+ISTALL MYSQL
+
+root@localhost: i5gt=-uee%Zw
+Mysql Root Password :  Austin@316
+
+
+https://www.if-not-true-then-false.com/2010/install-mysql-on-fedora-centos-red-hat-rhel/
+
+
+
+
